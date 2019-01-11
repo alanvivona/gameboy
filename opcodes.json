@@ -1,0 +1,19 @@
+{
+    "opcodes":[
+        {
+            "opcode": 0,
+            "description": "what does the opcode do",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD {n}, {nn}",
+            "operands": [
+                {
+                    "type": "r|dr|a|v|dv",
+                    "size": 8
+                }
+            ]
+        },
+        {
+
+        }
+    ]
+}
