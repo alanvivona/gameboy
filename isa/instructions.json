@@ -1,0 +1,5413 @@
+{
+    "instructions": [
+        {
+            "opcode": 0,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "NOP",
+            "fullMnemonic": "NOP -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 1,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD BC,nn",
+            "operands": [
+                {
+                    "description": "BC",
+                    "size": 0,
+                    "type": "rr"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 2,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (BC),A",
+            "operands": [
+                {
+                    "description": "(BC)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 3,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC BC",
+            "operands": [
+                {
+                    "description": "BC",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 4,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 5,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 6,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,n",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 7,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLCA",
+            "fullMnemonic": "RLCA -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 8,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (nn),SP",
+            "operands": [
+                {
+                    "description": "(nn)",
+                    "size": 16,
+                    "type": ""
+                },
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 9,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD HL,BC",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                },
+                {
+                    "description": "BC",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 10,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(BC)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(BC)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 11,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC BC",
+            "operands": [
+                {
+                    "description": "BC",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 12,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 13,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 14,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,n",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 15,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRCA",
+            "fullMnemonic": "RRCA -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 17,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD DE,nn",
+            "operands": [
+                {
+                    "description": "DE",
+                    "size": 0,
+                    "type": "rr"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 18,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (DE),A",
+            "operands": [
+                {
+                    "description": "(DE)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 19,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC DE",
+            "operands": [
+                {
+                    "description": "DE",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 20,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 21,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 22,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,n",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 23,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLA",
+            "fullMnemonic": "RLA -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 24,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JR",
+            "fullMnemonic": "JR n",
+            "operands": [
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 25,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD HL,DE",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                },
+                {
+                    "description": "DE",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 26,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(DE)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(DE)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 27,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC DE",
+            "operands": [
+                {
+                    "description": "DE",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 28,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 29,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 30,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,n",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 31,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRA",
+            "fullMnemonic": "RRA -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 32,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JR",
+            "fullMnemonic": "JR NZ,*",
+            "operands": [
+                {
+                    "description": "NZ",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "*",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 33,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD HL,nn",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 34,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HLI),A",
+            "operands": [
+                {
+                    "description": "(HLI)",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 34,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LDI",
+            "fullMnemonic": "LDI (HL),A",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 34,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL+),A",
+            "operands": [
+                {
+                    "description": "(HL+)",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 35,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC HL",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 36,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 37,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 38,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,n",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 39,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DAA",
+            "fullMnemonic": "DAA -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 40,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JR",
+            "fullMnemonic": "JR Z,*",
+            "operands": [
+                {
+                    "description": "Z",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "*",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 41,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD HL,HL",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                },
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 42,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LDI",
+            "fullMnemonic": "LDI A,(HL)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 42,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(HL+)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL+)",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 42,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(HLI)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HLI)",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 43,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC HL",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 44,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 45,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 46,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,n",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 47,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CPL",
+            "fullMnemonic": "CPL -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 48,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JR",
+            "fullMnemonic": "JR NC,*",
+            "operands": [
+                {
+                    "description": "NC",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "*",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 49,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD SP,nn",
+            "operands": [
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 50,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HLD),A",
+            "operands": [
+                {
+                    "description": "(HLD)",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 50,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LDD",
+            "fullMnemonic": "LDD (HL),A",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 50,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL-),A",
+            "operands": [
+                {
+                    "description": "(HL-)",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC SP",
+            "operands": [
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 52,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 53,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 54,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),n",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 55,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SCF",
+            "fullMnemonic": "SCF -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 56,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JR",
+            "fullMnemonic": "JR C,*",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "*",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 57,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD HL,SP",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                },
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 58,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LDD",
+            "fullMnemonic": "LDD A,(HL)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 58,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(HLD)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HLD)",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 58,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(HL-)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL-)",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 59,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC SP",
+            "operands": [
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 60,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "INC",
+            "fullMnemonic": "INC A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 61,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DEC",
+            "fullMnemonic": "DEC A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 62,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,#",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 63,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CCF",
+            "fullMnemonic": "CCF -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 64,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 65,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,C",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 66,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,D",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 67,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,E",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 68,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,H",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 69,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,L",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 70,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,(HL)",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 71,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD B,A",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 72,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,B",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 73,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 74,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,D",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 75,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,E",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 76,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,H",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 77,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,L",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 78,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,(HL)",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 79,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD C,A",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 80,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,B",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 81,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,C",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 82,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 83,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,E",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 84,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,H",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 85,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,L",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 86,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,(HL)",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 87,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD D,A",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 88,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,B",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 89,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,C",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 90,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,D",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 91,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 92,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,H",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 93,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,L",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 94,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,(HL)",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 95,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD E,A",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 96,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,B",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 97,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,C",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 98,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,D",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 99,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,E",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 100,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 101,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,L",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 102,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,(HL)",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 103,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD H,A",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 104,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,B",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 105,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,C",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 106,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,D",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 107,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,E",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 108,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,H",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 109,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 110,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,(HL)",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 111,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD L,A",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 112,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),B",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 113,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),C",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 114,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),D",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 115,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),E",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 116,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),H",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 117,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),L",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 118,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "HALT",
+            "fullMnemonic": "HALT -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 119,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (HL),A",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 120,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,B",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 120,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,B",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 121,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,C",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 121,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,C",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 122,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,D",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 122,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,D",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 123,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,E",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 123,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,E",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 124,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,H",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 124,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,H",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 125,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,L",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 125,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,L",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 126,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(HL)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 126,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(HL)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 127,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 127,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 127,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 128,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,B",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 129,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,C",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 130,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,D",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 131,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,E",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 132,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,H",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 133,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,L",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 134,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,(HL)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 135,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 136,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,B",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 137,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,C",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 138,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,D",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 139,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,E",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 140,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,H",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 141,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,L",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 142,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,(HL)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 143,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 144,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 145,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 146,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 147,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 148,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 149,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 150,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 151,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 152,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,B",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 153,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,C",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 154,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,D",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 155,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,E",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 156,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,H",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 157,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,L",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 158,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,(HL)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 159,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 160,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 161,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 162,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 163,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 164,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 165,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 166,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 167,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 168,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 169,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": null,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SBC",
+            "fullMnemonic": "SBC A,#",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 170,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 171,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 172,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 173,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 174,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 175,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 176,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 177,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 178,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 179,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 180,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 181,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 182,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 183,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 184,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 185,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 186,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 187,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 188,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 189,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 190,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 191,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 192,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RET",
+            "fullMnemonic": "RET NZ",
+            "operands": [
+                {
+                    "description": "NZ",
+                    "size": 0,
+                    "type": "f"
+                }
+            ]
+        },
+        {
+            "opcode": 193,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "POP",
+            "fullMnemonic": "POP BC",
+            "operands": [
+                {
+                    "description": "BC",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 194,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JP",
+            "fullMnemonic": "JP NZ,nn",
+            "operands": [
+                {
+                    "description": "NZ",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 196,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CALL",
+            "fullMnemonic": "CALL NZ,nn",
+            "operands": [
+                {
+                    "description": "NZ",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 197,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "PUSH",
+            "fullMnemonic": "PUSH BC",
+            "operands": [
+                {
+                    "description": "BC",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 198,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD A,#",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 199,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 00H",
+            "operands": [
+                {
+                    "description": "00H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 200,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RET",
+            "fullMnemonic": "RET Z",
+            "operands": [
+                {
+                    "description": "Z",
+                    "size": 0,
+                    "type": "f"
+                }
+            ]
+        },
+        {
+            "opcode": 201,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RET",
+            "fullMnemonic": "RET -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 202,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JP",
+            "fullMnemonic": "JP Z,nn",
+            "operands": [
+                {
+                    "description": "Z",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 203,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SWAP",
+            "fullMnemonic": "SWAP L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 204,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CALL",
+            "fullMnemonic": "CALL Z,nn",
+            "operands": [
+                {
+                    "description": "Z",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 205,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CALL",
+            "fullMnemonic": "CALL nn",
+            "operands": [
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 206,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADC",
+            "fullMnemonic": "ADC A,#",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 207,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 08H",
+            "operands": [
+                {
+                    "description": "08H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 208,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RET",
+            "fullMnemonic": "RET NC",
+            "operands": [
+                {
+                    "description": "NC",
+                    "size": 0,
+                    "type": "f"
+                }
+            ]
+        },
+        {
+            "opcode": 209,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "POP",
+            "fullMnemonic": "POP DE",
+            "operands": [
+                {
+                    "description": "DE",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 210,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JP",
+            "fullMnemonic": "JP NC,nn",
+            "operands": [
+                {
+                    "description": "NC",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 212,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CALL",
+            "fullMnemonic": "CALL NC,nn",
+            "operands": [
+                {
+                    "description": "NC",
+                    "size": 0,
+                    "type": "f"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 213,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "PUSH",
+            "fullMnemonic": "PUSH DE",
+            "operands": [
+                {
+                    "description": "DE",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 214,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SUB",
+            "fullMnemonic": "SUB #",
+            "operands": [
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 215,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 10H",
+            "operands": [
+                {
+                    "description": "10H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 216,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RET",
+            "fullMnemonic": "RET C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 217,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RETI",
+            "fullMnemonic": "RETI -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 218,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JP",
+            "fullMnemonic": "JP C,nn",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 220,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CALL",
+            "fullMnemonic": "CALL C,nn",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "**"
+                }
+            ]
+        },
+        {
+            "opcode": 223,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 18H",
+            "operands": [
+                {
+                    "description": "18H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 224,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD ($FF00+n),A",
+            "operands": [
+                {
+                    "description": "($FF00+n)",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 225,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "POP",
+            "fullMnemonic": "POP HL",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 226,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD ($FF00+C),A",
+            "operands": [
+                {
+                    "description": "($FF00+C)",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 229,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "PUSH",
+            "fullMnemonic": "PUSH HL",
+            "operands": [
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 230,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "AND",
+            "fullMnemonic": "AND #",
+            "operands": [
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 231,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 20H",
+            "operands": [
+                {
+                    "description": "20H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 232,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "ADD",
+            "fullMnemonic": "ADD SP,#",
+            "operands": [
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 233,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "JP",
+            "fullMnemonic": "JP (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 234,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD (nn),A",
+            "operands": [
+                {
+                    "description": "(nn)",
+                    "size": 16,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 238,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "XOR",
+            "fullMnemonic": "XOR *",
+            "operands": [
+                {
+                    "description": "*",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 239,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 28H",
+            "operands": [
+                {
+                    "description": "28H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 240,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,($FF00+n)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "($FF00+n)",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 241,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "POP",
+            "fullMnemonic": "POP AF",
+            "operands": [
+                {
+                    "description": "AF",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 242,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(C)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(C)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 243,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "DI",
+            "fullMnemonic": "DI -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 245,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "PUSH",
+            "fullMnemonic": "PUSH AF",
+            "operands": [
+                {
+                    "description": "AF",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 246,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "OR",
+            "fullMnemonic": "OR #",
+            "operands": [
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 247,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 30H",
+            "operands": [
+                {
+                    "description": "30H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 248,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LDHL",
+            "fullMnemonic": "LDHL SP,n",
+            "operands": [
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "n",
+                    "size": 8,
+                    "type": "*"
+                }
+            ]
+        },
+        {
+            "opcode": 249,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD SP,HL",
+            "operands": [
+                {
+                    "description": "SP",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "HL",
+                    "size": 0,
+                    "type": "rr"
+                }
+            ]
+        },
+        {
+            "opcode": 250,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "LD",
+            "fullMnemonic": "LD A,(nn)",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                },
+                {
+                    "description": "(nn)",
+                    "size": 16,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 251,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "EI",
+            "fullMnemonic": "EI -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 254,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "CP",
+            "fullMnemonic": "CP #",
+            "operands": [
+                {
+                    "description": "#",
+                    "size": null,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 255,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RST",
+            "fullMnemonic": "RST 38H",
+            "operands": [
+                {
+                    "description": "38H",
+                    "size": 0,
+                    "type": "h"
+                }
+            ]
+        },
+        {
+            "opcode": 4096,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "STOP",
+            "fullMnemonic": "STOP -/-",
+            "operands": [
+                {
+                    "description": "-/-",
+                    "size": 0,
+                    "type": null
+                }
+            ]
+        },
+        {
+            "opcode": 51968,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51969,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51970,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51971,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51972,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51973,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51974,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RLC",
+            "fullMnemonic": "RLC (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 51976,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51977,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51978,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51979,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51980,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51981,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51982,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 51983,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RRC",
+            "fullMnemonic": "RRC A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51984,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51985,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51986,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51987,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51988,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51989,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51990,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 51991,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RL",
+            "fullMnemonic": "RL A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51992,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51993,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51994,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51995,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51996,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51997,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 51998,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 51999,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RR",
+            "fullMnemonic": "RR A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52000,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52001,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52002,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52003,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52004,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52005,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52006,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 52007,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SLA",
+            "fullMnemonic": "SLA A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52008,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52009,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52010,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52011,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52012,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52013,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52014,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 52015,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRA",
+            "fullMnemonic": "SRA A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52024,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL B",
+            "operands": [
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52025,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL C",
+            "operands": [
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52026,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL D",
+            "operands": [
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52027,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL E",
+            "operands": [
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52028,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL H",
+            "operands": [
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52029,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL L",
+            "operands": [
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52030,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL (HL)",
+            "operands": [
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 52031,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SRL",
+            "fullMnemonic": "SRL A",
+            "operands": [
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52032,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,B",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52033,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,C",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52034,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,D",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52035,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,E",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52036,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,H",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52037,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,L",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52038,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,(HL)",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 52039,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "BIT",
+            "fullMnemonic": "BIT b,A",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52096,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,B",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52097,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,C",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52098,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,D",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52099,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,E",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52100,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,H",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52101,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,L",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52102,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,(HL)",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 52103,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "RES",
+            "fullMnemonic": "RES b,A",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52160,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,B",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "B",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52161,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,C",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "C",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52162,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,D",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "D",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52163,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,E",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "E",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52164,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,H",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "H",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52165,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,L",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "L",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        },
+        {
+            "opcode": 52166,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,(HL)",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "(HL)",
+                    "size": 0,
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "opcode": 52167,
+            "description": "descriptions are not yet supported",
+            "mnemonic": "SET",
+            "fullMnemonic": "SET b,A",
+            "operands": [
+                {
+                    "description": "b",
+                    "size": null,
+                    "type": ""
+                },
+                {
+                    "description": "A",
+                    "size": 0,
+                    "type": "r"
+                }
+            ]
+        }
+    ]
+}

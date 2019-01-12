@@ -1,0 +1,53 @@
+{ 
+    "operands": [
+    
+        { "description": "A", "size": 0, "type": "r" },
+        { "description": "B", "size": 0, "type": "r" },
+        { "description": "C", "size": 0, "type": "r" },
+        { "description": "D", "size": 0, "type": "r" },
+        { "description": "E", "size": 0, "type": "r" },
+        { "description": "H", "size": 0, "type": "r" },
+        { "description": "L", "size": 0, "type": "r" },
+
+        { "description": "AF", "size": 0, "type": "rr" },
+        { "description": "BC", "size": 0, "type": "rr" },
+        { "description": "DE", "size": 0, "type": "rr" },
+        { "description": "HL", "size": 0, "type": "rr" },
+
+        { "description": "#", "size": null, "type": "" },
+        
+        { "description": "($FF00+C)", "size": null, "type": "" },
+        { "description": "($FF00+n)", "size": null, "type": "" },
+        { "description": "(BC)", "size": 0, "type": "" },
+        { "description": "(C)", "size": 0, "type": "" },
+        { "description": "(DE)", "size": 0, "type": "" },
+        { "description": "(HL)", "size": 0, "type": "" },
+        { "description": "(HL+)", "size": null, "type": "" },
+        { "description": "(HL-)", "size": null, "type": "" },
+        { "description": "(HLD)", "size": null, "type": "" },
+        { "description": "(HLI)", "size": null, "type": "" },
+        { "description": "(nn)", "size": 16, "type": "" },
+        
+        { "description": "*", "size": null, "type": "" },
+        { "description": "SP", "size": null, "type": "" },
+        { "description": "b", "size": null, "type": "" },
+        { "description": "n", "size": 8, "type": "*" },
+        { "description": "nn", "size": 16, "type": "**" },
+        
+        { "description": "-/-", "size": 0, "type": null },
+
+        { "description": "00H", "size": 0, "type": "h" },
+        { "description": "08H", "size": 0, "type": "h" },
+        { "description": "10H", "size": 0, "type": "h" },
+        { "description": "18H", "size": 0, "type": "h" },
+        { "description": "20H", "size": 0, "type": "h" },
+        { "description": "28H", "size": 0, "type": "h" },
+        { "description": "30H", "size": 0, "type": "h" },
+        { "description": "38H", "size": 0, "type": "h" },
+        
+        { "description": "Z", "size": 0, "type": "f" },
+        { "description": "NC", "size": 0, "type": "f" },
+        { "description": "NZ", "size": 0, "type": "f" }
+
+    ]
+}
