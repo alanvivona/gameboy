@@ -9,7 +9,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -22,12 +23,14 @@
                 {
                     "description": "BC",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -40,12 +43,14 @@
                 {
                     "description": "(BC)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -58,7 +63,8 @@
                 {
                     "description": "BC",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -71,7 +77,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -84,7 +91,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -97,12 +105,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -115,7 +125,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -128,12 +139,14 @@
                 {
                     "description": "(nn)",
                     "size": 16,
-                    "type": ""
+                    "type": "",
+                    "mask": "hh"
                 },
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -146,12 +159,14 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 },
                 {
                     "description": "BC",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -164,12 +179,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(BC)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -182,7 +199,8 @@
                 {
                     "description": "BC",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -195,7 +213,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -208,7 +227,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -221,12 +241,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -239,7 +261,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -252,12 +275,14 @@
                 {
                     "description": "DE",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -270,12 +295,14 @@
                 {
                     "description": "(DE)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -288,7 +315,8 @@
                 {
                     "description": "DE",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -301,7 +329,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -314,7 +343,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -327,12 +357,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -345,7 +377,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -358,7 +391,8 @@
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -371,12 +405,14 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 },
                 {
                     "description": "DE",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -389,12 +425,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(DE)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -407,7 +445,8 @@
                 {
                     "description": "DE",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -420,7 +459,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -433,7 +473,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -446,12 +487,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -464,7 +507,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -477,12 +521,14 @@
                 {
                     "description": "NZ",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "*",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -495,12 +541,14 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -513,12 +561,14 @@
                 {
                     "description": "(HLI)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -531,12 +581,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -549,12 +601,14 @@
                 {
                     "description": "(HL+)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -567,7 +621,8 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -580,7 +635,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -593,7 +649,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -606,12 +663,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -624,7 +683,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -637,12 +697,14 @@
                 {
                     "description": "Z",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "*",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -655,12 +717,14 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 },
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -673,12 +737,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -691,12 +757,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL+)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -709,12 +777,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HLI)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -727,7 +797,8 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -740,7 +811,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -753,7 +825,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -766,12 +839,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -784,7 +859,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -797,12 +873,14 @@
                 {
                     "description": "NC",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "*",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -815,12 +893,14 @@
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -833,12 +913,14 @@
                 {
                     "description": "(HLD)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -851,12 +933,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -869,12 +953,14 @@
                 {
                     "description": "(HL-)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -887,7 +973,8 @@
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -900,7 +987,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -913,7 +1001,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -926,12 +1015,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -944,7 +1035,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -957,12 +1049,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "*",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -975,12 +1069,14 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 },
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -993,12 +1089,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1011,12 +1109,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HLD)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1029,12 +1129,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL-)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1047,7 +1149,8 @@
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1060,7 +1163,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1073,7 +1177,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1086,12 +1191,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1104,7 +1211,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -1117,12 +1225,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1135,12 +1245,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1153,12 +1265,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1171,12 +1285,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1189,12 +1305,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1207,12 +1325,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1225,12 +1345,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1243,12 +1365,14 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1261,12 +1385,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1279,12 +1405,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1297,12 +1425,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1315,12 +1445,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1333,12 +1465,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1351,12 +1485,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1369,12 +1505,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1387,12 +1525,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1405,12 +1545,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1423,12 +1565,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1441,12 +1585,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1459,12 +1605,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1477,12 +1625,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1495,12 +1645,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1513,12 +1665,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1531,12 +1685,14 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1549,12 +1705,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1567,12 +1725,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1585,12 +1745,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1603,12 +1765,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1621,12 +1785,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1639,12 +1805,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1657,12 +1825,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1675,12 +1845,14 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1693,12 +1865,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1711,12 +1885,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1729,12 +1905,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1747,12 +1925,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1765,12 +1945,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1783,12 +1965,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1801,12 +1985,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1819,12 +2005,14 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1837,12 +2025,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1855,12 +2045,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1873,12 +2065,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1891,12 +2085,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1909,12 +2105,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1927,12 +2125,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1945,12 +2145,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -1963,12 +2165,14 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1981,12 +2185,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -1999,12 +2205,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2017,12 +2225,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2035,12 +2245,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2053,12 +2265,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2071,12 +2285,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2089,7 +2305,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -2102,12 +2319,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2120,12 +2339,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2138,12 +2359,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2156,12 +2379,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2174,12 +2399,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2192,12 +2419,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2210,12 +2439,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2228,12 +2459,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2246,12 +2479,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2264,12 +2499,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2282,12 +2519,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2300,12 +2539,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2318,12 +2559,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2336,12 +2579,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -2354,12 +2599,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -2372,12 +2619,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2390,12 +2639,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2408,12 +2659,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2426,12 +2679,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2444,12 +2699,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2462,12 +2719,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2480,12 +2739,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2498,12 +2759,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2516,12 +2779,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2534,12 +2799,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -2552,12 +2819,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2570,12 +2839,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2588,12 +2859,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2606,12 +2879,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2624,12 +2899,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2642,12 +2919,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2660,12 +2939,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2678,12 +2959,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -2696,12 +2979,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2714,7 +2999,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2727,7 +3013,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2740,7 +3027,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2753,7 +3041,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2766,7 +3055,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2779,7 +3069,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2792,7 +3083,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -2805,7 +3097,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2818,12 +3111,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2836,12 +3131,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2854,12 +3151,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2872,12 +3171,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2890,12 +3191,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2908,12 +3211,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2926,12 +3231,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -2944,12 +3251,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2962,7 +3271,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2975,7 +3285,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -2988,7 +3299,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3001,7 +3313,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3014,7 +3327,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3027,7 +3341,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3040,7 +3355,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3053,7 +3369,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3066,7 +3383,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3079,7 +3397,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3092,12 +3411,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3110,7 +3431,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3123,7 +3445,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3136,7 +3459,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3149,7 +3473,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3162,7 +3487,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3175,7 +3501,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3188,7 +3515,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3201,7 +3529,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3214,7 +3543,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3227,7 +3557,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3240,7 +3571,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3253,7 +3585,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3266,7 +3599,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3279,7 +3613,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3292,7 +3627,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3305,7 +3641,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3318,7 +3655,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3331,7 +3669,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3344,7 +3683,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3357,7 +3697,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3370,7 +3711,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3383,7 +3725,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3396,7 +3739,8 @@
                 {
                     "description": "NZ",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 }
             ]
         },
@@ -3409,7 +3753,8 @@
                 {
                     "description": "BC",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -3422,12 +3767,14 @@
                 {
                     "description": "NZ",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3440,12 +3787,14 @@
                 {
                     "description": "NZ",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3458,7 +3807,8 @@
                 {
                     "description": "BC",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -3471,12 +3821,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3489,7 +3841,8 @@
                 {
                     "description": "00H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -3502,7 +3855,8 @@
                 {
                     "description": "Z",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 }
             ]
         },
@@ -3515,7 +3869,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -3528,12 +3883,14 @@
                 {
                     "description": "Z",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3546,7 +3903,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3559,7 +3917,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3572,7 +3931,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3585,7 +3945,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3598,7 +3959,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3611,7 +3973,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3624,7 +3987,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3637,7 +4001,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3650,7 +4015,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3663,12 +4029,14 @@
                 {
                     "description": "Z",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3681,7 +4049,8 @@
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3694,12 +4063,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3712,7 +4083,8 @@
                 {
                     "description": "08H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -3725,7 +4097,8 @@
                 {
                     "description": "NC",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 }
             ]
         },
@@ -3738,7 +4111,8 @@
                 {
                     "description": "DE",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -3751,12 +4125,14 @@
                 {
                     "description": "NC",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3769,12 +4145,14 @@
                 {
                     "description": "NC",
                     "size": 0,
-                    "type": "f"
+                    "type": "f",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3787,7 +4165,8 @@
                 {
                     "description": "DE",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -3800,7 +4179,8 @@
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3813,7 +4193,8 @@
                 {
                     "description": "10H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -3826,7 +4207,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3839,7 +4221,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -3852,12 +4235,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3870,12 +4255,14 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**"
+                    "type": "**",
+                    "mask": "hh"
                 }
             ]
         },
@@ -3888,7 +4275,8 @@
                 {
                     "description": "18H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -3901,12 +4289,14 @@
                 {
                     "description": "($FF00+n)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3919,7 +4309,8 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -3932,12 +4323,14 @@
                 {
                     "description": "($FF00+C)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -3950,7 +4343,8 @@
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -3963,7 +4357,8 @@
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -3976,7 +4371,8 @@
                 {
                     "description": "20H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -3989,12 +4385,14 @@
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4007,7 +4405,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4020,12 +4419,14 @@
                 {
                     "description": "(nn)",
                     "size": 16,
-                    "type": ""
+                    "type": "",
+                    "mask": "hh"
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4038,7 +4439,8 @@
                 {
                     "description": "*",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4051,7 +4453,8 @@
                 {
                     "description": "28H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -4064,12 +4467,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "($FF00+n)",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4082,7 +4487,8 @@
                 {
                     "description": "AF",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -4095,12 +4501,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(C)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4113,7 +4521,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -4126,7 +4535,8 @@
                 {
                     "description": "AF",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -4139,7 +4549,8 @@
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4152,7 +4563,8 @@
                 {
                     "description": "30H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -4165,12 +4577,14 @@
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "n",
                     "size": 8,
-                    "type": "*"
+                    "type": "*",
+                    "mask": "h"
                 }
             ]
         },
@@ -4183,12 +4597,14 @@
                 {
                     "description": "SP",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "HL",
                     "size": 0,
-                    "type": "rr"
+                    "type": "rr",
+                    "mask": null
                 }
             ]
         },
@@ -4201,12 +4617,14 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 },
                 {
                     "description": "(nn)",
                     "size": 16,
-                    "type": ""
+                    "type": "",
+                    "mask": "hh"
                 }
             ]
         },
@@ -4219,7 +4637,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -4232,7 +4651,8 @@
                 {
                     "description": "#",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4245,7 +4665,8 @@
                 {
                     "description": "38H",
                     "size": 0,
-                    "type": "h"
+                    "type": "h",
+                    "mask": null
                 }
             ]
         },
@@ -4258,7 +4679,8 @@
                 {
                     "description": "-/-",
                     "size": 0,
-                    "type": null
+                    "type": null,
+                    "mask": null
                 }
             ]
         },
@@ -4271,7 +4693,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4284,7 +4707,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4297,7 +4721,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4310,7 +4735,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4323,7 +4749,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4336,7 +4763,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4349,7 +4777,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4362,7 +4791,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4375,7 +4805,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4388,7 +4819,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4401,7 +4833,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4414,7 +4847,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4427,7 +4861,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4440,7 +4875,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4453,7 +4889,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4466,7 +4903,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4479,7 +4917,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4492,7 +4931,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4505,7 +4945,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4518,7 +4959,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4531,7 +4973,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4544,7 +4987,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4557,7 +5001,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4570,7 +5015,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4583,7 +5029,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4596,7 +5043,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4609,7 +5057,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4622,7 +5071,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4635,7 +5085,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4648,7 +5099,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4661,7 +5113,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4674,7 +5127,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4687,7 +5141,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4700,7 +5155,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4713,7 +5169,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4726,7 +5183,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4739,7 +5197,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4752,7 +5211,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4765,7 +5225,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4778,7 +5239,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4791,7 +5253,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4804,7 +5267,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4817,7 +5281,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4830,7 +5295,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4843,7 +5309,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4856,7 +5323,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4869,7 +5337,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4882,7 +5351,8 @@
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4895,7 +5365,8 @@
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4908,7 +5379,8 @@
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4921,7 +5393,8 @@
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4934,7 +5407,8 @@
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4947,7 +5421,8 @@
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4960,7 +5435,8 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -4973,7 +5449,8 @@
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -4986,12 +5463,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5004,12 +5483,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5022,12 +5503,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5040,12 +5523,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5058,12 +5543,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5076,12 +5563,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5094,12 +5583,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -5112,12 +5603,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5130,12 +5623,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5148,12 +5643,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5166,12 +5663,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5184,12 +5683,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5202,12 +5703,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5220,12 +5723,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5238,12 +5743,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -5256,12 +5763,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5274,12 +5783,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "B",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5292,12 +5803,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "C",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5310,12 +5823,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "D",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5328,12 +5843,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "E",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5346,12 +5863,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "H",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5364,12 +5883,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "L",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         },
@@ -5382,12 +5903,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 }
             ]
         },
@@ -5400,12 +5923,14 @@
                 {
                     "description": "b",
                     "size": null,
-                    "type": ""
+                    "type": "",
+                    "mask": null
                 },
                 {
                     "description": "A",
                     "size": 0,
-                    "type": "r"
+                    "type": "r",
+                    "mask": null
                 }
             ]
         }

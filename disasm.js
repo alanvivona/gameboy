@@ -10,7 +10,7 @@ const disassembly = binary => {
                 res.grabBytes--
                 resInstruction = {
                     opcodes: [],
-                    asm: "UNKWN"
+                    asm: "UNK [!]"
                 }
                 if (res.grabBytes == 0) {
                     foundISAInstructions = ISA.instructions.filter(instruction => instruction.opcode === byte)
