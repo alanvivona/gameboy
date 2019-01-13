@@ -11,16 +11,16 @@ const parse = line => {
         // Ignore comments
         instruction = line.trim().split(";")[0].trim().toUpperCase()
 
-        console.log("Removed comments, got instruction:", instruction)
+        // console.log("Removed comments, got instruction:", instruction)
         instruction = instruction.trim().split(" ")
 
         if (instruction.length > 0) {
             const mnemonic = instruction.shift().trim()
-            console.log("Got mnemonic:", mnemonic)
+            // console.log("Got mnemonic:", mnemonic)
 
             // remove all whitespaces, they are not needed anymore at this point
             const operands = instruction.join("").split(",").map(x => x.replace(/ /g, ''))
-            console.log("Got", operands.length, "operands:", operands)
+            // console.log("Got", operands.length, "operands:", operands)
 
             return {
                 mnemonic: mnemonic,
@@ -49,51 +49,50 @@ const strRepresentationToInteger = stringRepresentation => {
 }
 
 const assembly = syntaxObj => {
-    console.log("Assembling syntax:", syntaxObj)
+    console.log("Syntax:", syntaxObj)
 
-    const instructionMatches = ISA.instructions.filter(instruction => instruction.mnemonic === syntaxObj.mnemonic)
+    const instructionMatches = ISA.instructions
+        .filter(isaInstruction => 
+                    isaInstruction.mnemonic === syntaxObj.mnemonic && 
+                    isaInstruction.operands.length === syntaxObj.operands.length
+                )
 
     if (instructionMatches.length > 0) {
-        console.log("Found", instructionMatches.length, "instruction matches for mnemonic:", syntaxObj.mnemonic)
+        console.log("Found", instructionMatches.length, "instruction matches for mnemonic:", syntaxObj.mnemonic, "with", syntaxObj.operands.length, "operands")
 
-        const operandQuantMatches = instructionMatches.filter(instruction => instruction.operands.length === syntaxObj.operands.length)
-        if (instructionMatches.length > 0) {
-            console.log("Found", operandQuantMatches.length, "operand quantity matches")
-            const operandsMatchByValueAndType = operandQuantMatches.filter(isaInstruction => {
-                console.log("Looking for match with ISA instruction",isaInstruction.fullMnemonic)
+            const operandsMatchByValueAndType = instructionMatches.filter(isaInstruction => {
+                // console.log("Looking for match with ISA instruction",isaInstruction.fullMnemonic)
 
+                let matchedOperands = 0
                 for (let o = 0; o < isaInstruction.operands.length; o++) {
                     const isaOperand = isaInstruction.operands[o]
                     const inputOperand = syntaxObj.operands[o]
 
-                    console.log("Looking for match between operand", isaOperand.description, "and", inputOperand)
+                    // console.log("Looking for match between operand", isaOperand.description, "and", inputOperand)
 
                     switch (isaOperand.mask) {
-                        case null:
+                        case '':
                             if (isaOperand.description === inputOperand) {
-                                console.log("Operand match found")
+                                matchedOperands++
                                 break;
                             } else {
-                                console.log("Operand does not match")
                                 return false
                             }
                         case 'h':
                             const oneByte = 0xff
                             if (strRepresentationToInteger(inputOperand) <= parseInt(oneByte, 16)) {
-                                console.log("Operand match found")
+                                matchedOperands++
                                 break;
                             } else {
-                                console.log("Operand does not match")
                                 console.log("The provided operand value", inputOperand, "exeedes the limit", oneByte.toString())
                                 return false
                             }
                         case 'hh':
                             const twoBytes = 0xffff
                             if (strRepresentationToInteger(inputOperand) <= parseInt(twoBytes, 16)) {
-                                console.log("Operand match found")
+                                matchedOperands++
                                 break;
                             } else {
-                                console.log("Operand does not match")
                                 console.log("The provided operand value", inputOperand, "exeedes the limit", twoBytes.toString())
                                 return false
                             }
@@ -102,7 +101,7 @@ const assembly = syntaxObj => {
                             return false
                     }
                 }
-                return true
+                return matchedOperands === isaInstruction.operands.length
             })
 
             if (operandsMatchByValueAndType.length === 1) {
@@ -121,11 +120,8 @@ const assembly = syntaxObj => {
                 console.log("Matches found:", operandsMatchByValueAndType)
             }
 
-        } else {
-            console.log("Can't find a variant of ", syntaxObj.mnemonic, "with", syntaxObj.operands.length, "operands")
-        }
     } else {
-        console.log("Can't find candidate instruction for mnemonic", syntaxObj.mnemonic, "on instruction", syntaxObj)
+        console.log("Can't find a variant of ", syntaxObj.mnemonic, "with", syntaxObj.operands.length, "operands")
     }
 
     return null
