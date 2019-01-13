@@ -1,12 +1,3 @@
-const fs = require('fs')
-const readline = require('readline')
-
-const pathToAsmFile = './samples/asm-sample.s'
-const pathToResultFile = './samples/machine-code-sample.o'
-const lineReader = readline.createInterface({
-    input: fs.createReadStream(pathToAsmFile, { flags: "r" })
-})
-
 const ISA = {
     instructions: require('./isa/instructions').instructions,
     operands: require('./isa/operands').operands,
@@ -140,16 +131,14 @@ const assembly = syntaxObj => {
     return null
 }
 
-let machineCodeFullTranslation = []
-lineReader.on('line', line => {
-    console.log('Read line from file:', line)
+const asmLine = line => {
     const syntaxObj = parse(line)
     if (syntaxObj !== null) {
         const machineCode = assembly(syntaxObj)
         if (machineCode !== null) {
             if (machineCode.length > 0) {
                 console.log("Machine code:", machineCode)
-                machineCodeFullTranslation = machineCodeFullTranslation.concat(machineCode)
+                return machineCode
             }
         } else {
             console.log("Assembly failed on line:", line)
@@ -157,10 +146,29 @@ lineReader.on('line', line => {
     } else {
         console.log("Syntax analysis failed on line:", line)
     }
-})
+    return []
+}
 
-lineReader.on('close', () => {
-    fs.writeFile(pathToResultFile, machineCodeFullTranslation.join(" "), () => {
-        console.log('file saved to  :', pathToResultFile)
+const asmFile = filePath => {
+    const fs = require('fs')
+    const readline = require('readline')
+
+    const pathToAsmFile = filePath ? filePath : './samples/asm-sample.s'
+    const pathToResultFile = './samples/machine-code.o'
+
+    let machineCodeFullTranslation = []
+    readline.createInterface({
+        input: fs.createReadStream(pathToAsmFile, { flags: "r" })
+    }).on('line', line => {
+        console.log('Read line from file:', line)
+        const machineCode = asmLine(line)
+        machineCodeFullTranslation = machineCodeFullTranslation.concat(machineCode)
+    }).on('close', () => {
+        fs.writeFile(pathToResultFile, machineCodeFullTranslation.join(" "), () => {
+            console.log('file saved to  :', pathToResultFile)
+        })
     })
-})
+}
+
+exports.asmLine = asmLine
+exports.asmFile = asmFile
