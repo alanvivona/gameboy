@@ -38,14 +38,19 @@ const parse = line => {
 
 const strRepresentationToInteger = stringRepresentation => {
     const prefix = stringRepresentation.slice(0, 2)
-    let base = 10
-    switch (prefix) {
-        case "0x":
-            base = 16
-        case "0b":
-            base = 2
+    let base = null
+    let value = null
+    if (prefix === "0X") {
+        base = 16
+        value = Number(stringRepresentation.slice(2))
+    } else if (prefix === "0B") {
+        base = 2
+        value = Number(stringRepresentation.slice(2))
+    } else {
+        base = 10
+        value = Number(stringRepresentation)
     }
-    return parseInt(stringRepresentation, base)
+    return parseInt(value, base)
 }
 
 const assembly = syntaxObj => {
