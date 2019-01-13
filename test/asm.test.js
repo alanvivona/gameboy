@@ -125,7 +125,7 @@ const testCases = [
      { "input": "LD (DE),A", "hex": "12" },
     
      /* THESE DON'T WORK
-     //LD immediate values
+    //LD immediate values
     {"input": "LD A,0b111", "hex": "3e07" },
     {"input": "LD (0xAA55),A", "hex": "ea55aa" },
     {"input": "LD A,(0xaa55)", "hex": "fa55aa" },
