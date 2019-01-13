@@ -16,7 +16,7 @@
         },
         {
             "opcode": 1,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD BC,nn",
             "operands": [
@@ -36,7 +36,7 @@
         },
         {
             "opcode": 2,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (BC),A",
             "operands": [
@@ -98,7 +98,7 @@
         },
         {
             "opcode": 6,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,n",
             "operands": [
@@ -120,19 +120,12 @@
             "opcode": 7,
             "description": "descriptions are not yet supported",
             "mnemonic": "RLCA",
-            "fullMnemonic": "RLCA -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "RLCA",
+            "operands": []
         },
         {
             "opcode": 8,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (nn),SP",
             "operands": [
@@ -140,7 +133,7 @@
                     "description": "(nn)",
                     "size": 16,
                     "type": "",
-                    "mask": "hh"
+                    "mask": "(hh)"
                 },
                 {
                     "description": "SP",
@@ -172,7 +165,7 @@
         },
         {
             "opcode": 10,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(BC)",
             "operands": [
@@ -234,7 +227,7 @@
         },
         {
             "opcode": 14,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,n",
             "operands": [
@@ -256,19 +249,12 @@
             "opcode": 15,
             "description": "descriptions are not yet supported",
             "mnemonic": "RRCA",
-            "fullMnemonic": "RRCA -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "RRCA",
+            "operands": []
         },
         {
             "opcode": 17,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD DE,nn",
             "operands": [
@@ -288,7 +274,7 @@
         },
         {
             "opcode": 18,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (DE),A",
             "operands": [
@@ -350,7 +336,7 @@
         },
         {
             "opcode": 22,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,n",
             "operands": [
@@ -372,15 +358,8 @@
             "opcode": 23,
             "description": "descriptions are not yet supported",
             "mnemonic": "RLA",
-            "fullMnemonic": "RLA -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "RLA",
+            "operands": []
         },
         {
             "opcode": 24,
@@ -418,7 +397,7 @@
         },
         {
             "opcode": 26,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(DE)",
             "operands": [
@@ -480,7 +459,7 @@
         },
         {
             "opcode": 30,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,n",
             "operands": [
@@ -502,15 +481,8 @@
             "opcode": 31,
             "description": "descriptions are not yet supported",
             "mnemonic": "RRA",
-            "fullMnemonic": "RRA -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "RRA",
+            "operands": []
         },
         {
             "opcode": 32,
@@ -534,7 +506,7 @@
         },
         {
             "opcode": 33,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD HL,nn",
             "operands": [
@@ -554,14 +526,14 @@
         },
         {
             "opcode": 34,
-            "description": "Load value of second operand into first operand",
+            "description": "Put A into memory address HL. Increment HL. Same as: LD (HL),A - INC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HLI),A",
             "operands": [
                 {
                     "description": "(HLI)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 },
                 {
@@ -574,14 +546,14 @@
         },
         {
             "opcode": 34,
-            "description": "descriptions are not yet supported",
+            "description": "Put A into memory address HL. Increment HL. Same as: LD (HL),A - INC HL",
             "mnemonic": "LDI",
             "fullMnemonic": "LDI (HL),A",
             "operands": [
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": "",
+                    "type": "rr",
                     "mask": ""
                 },
                 {
@@ -594,14 +566,14 @@
         },
         {
             "opcode": 34,
-            "description": "Load value of second operand into first operand",
+            "description": "Put A into memory address HL. Increment HL. Same as: LD (HL),A - INC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL+),A",
             "operands": [
                 {
                     "description": "(HL+)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 },
                 {
@@ -656,7 +628,7 @@
         },
         {
             "opcode": 38,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,n",
             "operands": [
@@ -678,15 +650,8 @@
             "opcode": 39,
             "description": "descriptions are not yet supported",
             "mnemonic": "DAA",
-            "fullMnemonic": "DAA -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "DAA",
+            "operands": []
         },
         {
             "opcode": 40,
@@ -730,7 +695,7 @@
         },
         {
             "opcode": 42,
-            "description": "descriptions are not yet supported",
+            "description": "Put value at address HL into A. Increment HL. Same as: LD A,(HL) - INC HL",
             "mnemonic": "LDI",
             "fullMnemonic": "LDI A,(HL)",
             "operands": [
@@ -743,14 +708,14 @@
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": "",
+                    "type": "rr",
                     "mask": ""
                 }
             ]
         },
         {
             "opcode": 42,
-            "description": "Load value of second operand into first operand",
+            "description": "Put value at address HL into A. Increment HL. Same as: LD A,(HL) - INC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(HL+)",
             "operands": [
@@ -762,15 +727,15 @@
                 },
                 {
                     "description": "(HL+)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 }
             ]
         },
         {
             "opcode": 42,
-            "description": "Load value of second operand into first operand",
+            "description": "Put value at address HL into A. Increment HL. Same as: LD A,(HL) - INC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(HLI)",
             "operands": [
@@ -782,8 +747,8 @@
                 },
                 {
                     "description": "(HLI)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 }
             ]
@@ -832,7 +797,7 @@
         },
         {
             "opcode": 46,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,n",
             "operands": [
@@ -854,15 +819,8 @@
             "opcode": 47,
             "description": "descriptions are not yet supported",
             "mnemonic": "CPL",
-            "fullMnemonic": "CPL -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "CPL",
+            "operands": []
         },
         {
             "opcode": 48,
@@ -886,7 +844,7 @@
         },
         {
             "opcode": 49,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD SP,nn",
             "operands": [
@@ -906,14 +864,14 @@
         },
         {
             "opcode": 50,
-            "description": "Load value of second operand into first operand",
+            "description": "Put A into memory address HL. Decrement HL. Same as: LD (HL),A - DEC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HLD),A",
             "operands": [
                 {
                     "description": "(HLD)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 },
                 {
@@ -926,14 +884,14 @@
         },
         {
             "opcode": 50,
-            "description": "descriptions are not yet supported",
+            "description": "Put A into memory address HL. Decrement HL. Same as: LD (HL),A - DEC HL",
             "mnemonic": "LDD",
             "fullMnemonic": "LDD (HL),A",
             "operands": [
                 {
                     "description": "(HL)",
                     "size": 0,
-                    "type": "",
+                    "type": "rr",
                     "mask": ""
                 },
                 {
@@ -946,14 +904,14 @@
         },
         {
             "opcode": 50,
-            "description": "Load value of second operand into first operand",
+            "description": "Put A into memory address HL. Decrement HL. Same as: LD (HL),A - DEC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL-),A",
             "operands": [
                 {
                     "description": "(HL-)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 },
                 {
@@ -1008,7 +966,7 @@
         },
         {
             "opcode": 54,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),n",
             "operands": [
@@ -1030,15 +988,8 @@
             "opcode": 55,
             "description": "descriptions are not yet supported",
             "mnemonic": "SCF",
-            "fullMnemonic": "SCF -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "SCF",
+            "operands": []
         },
         {
             "opcode": 56,
@@ -1082,7 +1033,7 @@
         },
         {
             "opcode": 58,
-            "description": "descriptions are not yet supported",
+            "description": "Put value at address HL into A. Decrement HL. Same as: LD A,(HL) - DEC HL",
             "mnemonic": "LDD",
             "fullMnemonic": "LDD A,(HL)",
             "operands": [
@@ -1102,7 +1053,7 @@
         },
         {
             "opcode": 58,
-            "description": "Load value of second operand into first operand",
+            "description": "Put value at address HL into A. Decrement HL. Same as: LD A,(HL) - DEC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(HLD)",
             "operands": [
@@ -1114,15 +1065,15 @@
                 },
                 {
                     "description": "(HLD)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 }
             ]
         },
         {
             "opcode": 58,
-            "description": "Load value of second operand into first operand",
+            "description": "Put value at address HL into A. Decrement HL. Same as: LD A,(HL) - DEC HL",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(HL-)",
             "operands": [
@@ -1134,8 +1085,8 @@
                 },
                 {
                     "description": "(HL-)",
-                    "size": null,
-                    "type": "",
+                    "size": 0,
+                    "type": "rr",
                     "mask": ""
                 }
             ]
@@ -1184,9 +1135,9 @@
         },
         {
             "opcode": 62,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
-            "fullMnemonic": "LD A,#",
+            "fullMnemonic": "LD A,n",
             "operands": [
                 {
                     "description": "A",
@@ -1195,10 +1146,10 @@
                     "mask": ""
                 },
                 {
-                    "description": "#",
+                    "description": "n",
                     "size": null,
-                    "type": "",
-                    "mask": ""
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -1218,7 +1169,7 @@
         },
         {
             "opcode": 64,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,B",
             "operands": [
@@ -1238,7 +1189,7 @@
         },
         {
             "opcode": 65,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,C",
             "operands": [
@@ -1258,7 +1209,7 @@
         },
         {
             "opcode": 66,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,D",
             "operands": [
@@ -1278,7 +1229,7 @@
         },
         {
             "opcode": 67,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,E",
             "operands": [
@@ -1298,7 +1249,7 @@
         },
         {
             "opcode": 68,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,H",
             "operands": [
@@ -1318,7 +1269,7 @@
         },
         {
             "opcode": 69,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,L",
             "operands": [
@@ -1338,7 +1289,7 @@
         },
         {
             "opcode": 70,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,(HL)",
             "operands": [
@@ -1358,7 +1309,7 @@
         },
         {
             "opcode": 71,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD B,A",
             "operands": [
@@ -1378,7 +1329,7 @@
         },
         {
             "opcode": 72,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,B",
             "operands": [
@@ -1398,7 +1349,7 @@
         },
         {
             "opcode": 73,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,C",
             "operands": [
@@ -1418,7 +1369,7 @@
         },
         {
             "opcode": 74,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,D",
             "operands": [
@@ -1438,7 +1389,7 @@
         },
         {
             "opcode": 75,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,E",
             "operands": [
@@ -1458,7 +1409,7 @@
         },
         {
             "opcode": 76,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,H",
             "operands": [
@@ -1478,7 +1429,7 @@
         },
         {
             "opcode": 77,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,L",
             "operands": [
@@ -1498,7 +1449,7 @@
         },
         {
             "opcode": 78,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,(HL)",
             "operands": [
@@ -1518,7 +1469,7 @@
         },
         {
             "opcode": 79,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD C,A",
             "operands": [
@@ -1538,7 +1489,7 @@
         },
         {
             "opcode": 80,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,B",
             "operands": [
@@ -1558,7 +1509,7 @@
         },
         {
             "opcode": 81,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,C",
             "operands": [
@@ -1578,7 +1529,7 @@
         },
         {
             "opcode": 82,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,D",
             "operands": [
@@ -1598,7 +1549,7 @@
         },
         {
             "opcode": 83,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,E",
             "operands": [
@@ -1618,7 +1569,7 @@
         },
         {
             "opcode": 84,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,H",
             "operands": [
@@ -1638,7 +1589,7 @@
         },
         {
             "opcode": 85,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,L",
             "operands": [
@@ -1658,7 +1609,7 @@
         },
         {
             "opcode": 86,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,(HL)",
             "operands": [
@@ -1678,7 +1629,7 @@
         },
         {
             "opcode": 87,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD D,A",
             "operands": [
@@ -1698,7 +1649,7 @@
         },
         {
             "opcode": 88,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,B",
             "operands": [
@@ -1718,7 +1669,7 @@
         },
         {
             "opcode": 89,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,C",
             "operands": [
@@ -1738,7 +1689,7 @@
         },
         {
             "opcode": 90,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,D",
             "operands": [
@@ -1758,7 +1709,7 @@
         },
         {
             "opcode": 91,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,E",
             "operands": [
@@ -1778,7 +1729,7 @@
         },
         {
             "opcode": 92,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,H",
             "operands": [
@@ -1798,7 +1749,7 @@
         },
         {
             "opcode": 93,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,L",
             "operands": [
@@ -1818,7 +1769,7 @@
         },
         {
             "opcode": 94,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,(HL)",
             "operands": [
@@ -1838,7 +1789,7 @@
         },
         {
             "opcode": 95,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD E,A",
             "operands": [
@@ -1858,7 +1809,7 @@
         },
         {
             "opcode": 96,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,B",
             "operands": [
@@ -1878,7 +1829,7 @@
         },
         {
             "opcode": 97,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,C",
             "operands": [
@@ -1898,7 +1849,7 @@
         },
         {
             "opcode": 98,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,D",
             "operands": [
@@ -1918,7 +1869,7 @@
         },
         {
             "opcode": 99,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,E",
             "operands": [
@@ -1938,7 +1889,7 @@
         },
         {
             "opcode": 100,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,H",
             "operands": [
@@ -1958,7 +1909,7 @@
         },
         {
             "opcode": 101,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,L",
             "operands": [
@@ -1978,7 +1929,7 @@
         },
         {
             "opcode": 102,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,(HL)",
             "operands": [
@@ -1998,7 +1949,7 @@
         },
         {
             "opcode": 103,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD H,A",
             "operands": [
@@ -2018,7 +1969,7 @@
         },
         {
             "opcode": 104,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,B",
             "operands": [
@@ -2038,7 +1989,7 @@
         },
         {
             "opcode": 105,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,C",
             "operands": [
@@ -2058,7 +2009,7 @@
         },
         {
             "opcode": 106,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,D",
             "operands": [
@@ -2078,7 +2029,7 @@
         },
         {
             "opcode": 107,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,E",
             "operands": [
@@ -2098,7 +2049,7 @@
         },
         {
             "opcode": 108,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,H",
             "operands": [
@@ -2118,7 +2069,7 @@
         },
         {
             "opcode": 109,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,L",
             "operands": [
@@ -2138,7 +2089,7 @@
         },
         {
             "opcode": 110,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,(HL)",
             "operands": [
@@ -2158,7 +2109,7 @@
         },
         {
             "opcode": 111,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD L,A",
             "operands": [
@@ -2178,7 +2129,7 @@
         },
         {
             "opcode": 112,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),B",
             "operands": [
@@ -2198,7 +2149,7 @@
         },
         {
             "opcode": 113,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),C",
             "operands": [
@@ -2218,7 +2169,7 @@
         },
         {
             "opcode": 114,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),D",
             "operands": [
@@ -2238,7 +2189,7 @@
         },
         {
             "opcode": 115,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),E",
             "operands": [
@@ -2258,7 +2209,7 @@
         },
         {
             "opcode": 116,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),H",
             "operands": [
@@ -2278,7 +2229,7 @@
         },
         {
             "opcode": 117,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),L",
             "operands": [
@@ -2312,7 +2263,7 @@
         },
         {
             "opcode": 119,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (HL),A",
             "operands": [
@@ -2332,7 +2283,7 @@
         },
         {
             "opcode": 120,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,B",
             "operands": [
@@ -2352,7 +2303,7 @@
         },
         {
             "opcode": 121,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,C",
             "operands": [
@@ -2372,7 +2323,7 @@
         },
         {
             "opcode": 122,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,D",
             "operands": [
@@ -2392,7 +2343,7 @@
         },
         {
             "opcode": 123,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,E",
             "operands": [
@@ -2412,7 +2363,7 @@
         },
         {
             "opcode": 124,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,H",
             "operands": [
@@ -2432,7 +2383,7 @@
         },
         {
             "opcode": 125,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,L",
             "operands": [
@@ -2452,27 +2403,7 @@
         },
         {
             "opcode": 126,
-            "description": "Load value of second operand into first operand",
-            "mnemonic": "LD",
-            "fullMnemonic": "LD A,(HL)",
-            "operands": [
-                {
-                    "description": "A",
-                    "size": 0,
-                    "type": "r",
-                    "mask": ""
-                },
-                {
-                    "description": "(HL)",
-                    "size": 0,
-                    "type": "",
-                    "mask": ""
-                }
-            ]
-        },
-        {
-            "opcode": 126,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(HL)",
             "operands": [
@@ -2492,7 +2423,7 @@
         },
         {
             "opcode": 127,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,A",
             "operands": [
@@ -4122,15 +4053,15 @@
         },
         {
             "opcode": 224,
-            "description": "Load value of second operand into first operand",
-            "mnemonic": "LD",
-            "fullMnemonic": "LD ($FF00+n),A",
+            "description": "Put A into memory address $FF00+n",
+            "mnemonic": "LDH",
+            "fullMnemonic": "LDH (n),A",
             "operands": [
                 {
-                    "description": "($FF00+n)",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "description": "(n)",
+                    "size": 8,
+                    "type": "h",
+                    "mask": "(h)"
                 },
                 {
                     "description": "A",
@@ -4156,14 +4087,14 @@
         },
         {
             "opcode": 226,
-            "description": "Load value of second operand into first operand",
+            "description": "Put A into address $FF00 + register C",
             "mnemonic": "LD",
-            "fullMnemonic": "LD ($FF00+C),A",
+            "fullMnemonic": "LD (C),A",
             "operands": [
                 {
-                    "description": "($FF00+C)",
+                    "description": "(C)",
                     "size": null,
-                    "type": "",
+                    "type": "r",
                     "mask": ""
                 },
                 {
@@ -4252,7 +4183,7 @@
         },
         {
             "opcode": 234,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD (nn),A",
             "operands": [
@@ -4260,7 +4191,7 @@
                     "description": "(nn)",
                     "size": 16,
                     "type": "",
-                    "mask": "hh"
+                    "mask": "(hh)"
                 },
                 {
                     "description": "A",
@@ -4300,9 +4231,9 @@
         },
         {
             "opcode": 240,
-            "description": "Load value of second operand into first operand",
-            "mnemonic": "LD",
-            "fullMnemonic": "LD A,($FF00+n)",
+            "description": "Put memory address $FF00+n into A.",
+            "mnemonic": "LDH",
+            "fullMnemonic": "LDH A,(n)",
             "operands": [
                 {
                     "description": "A",
@@ -4311,10 +4242,10 @@
                     "mask": ""
                 },
                 {
-                    "description": "($FF00+n)",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "description": "(n)",
+                    "size": 8,
+                    "type": "h",
+                    "mask": "(h)"
                 }
             ]
         },
@@ -4334,7 +4265,7 @@
         },
         {
             "opcode": 242,
-            "description": "Load value of second operand into first operand",
+            "description": "Put value at address $FF00 + register C into A. Same as: LD A,($FF00+C",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(C)",
             "operands": [
@@ -4430,7 +4361,7 @@
         },
         {
             "opcode": 249,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD SP,HL",
             "operands": [
@@ -4450,7 +4381,7 @@
         },
         {
             "opcode": 250,
-            "description": "Load value of second operand into first operand",
+            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
             "mnemonic": "LD",
             "fullMnemonic": "LD A,(nn)",
             "operands": [
@@ -4464,7 +4395,7 @@
                     "description": "(nn)",
                     "size": 16,
                     "type": "",
-                    "mask": "hh"
+                    "mask": "(hh)"
                 }
             ]
         },

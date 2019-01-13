@@ -1,0 +1,23 @@
+{
+  "name": "game-boy-disassembler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanvivona/game-boy-disassembler.git"
+  },
+  "author": "Alan Vivona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanvivona/game-boy-disassembler/issues"
+  },
+  "homepage": "https://github.com/alanvivona/game-boy-disassembler#readme",
+  "dependencies": {}
+}

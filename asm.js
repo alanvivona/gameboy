@@ -19,7 +19,19 @@ const parse = line => {
             // console.log("Got mnemonic:", mnemonic)
 
             // remove all whitespaces, they are not needed anymore at this point
-            const operands = instruction.join("").split(",").map(x => x.replace(/ /g, ''))
+            const operands = instruction
+                .join("")
+                .split(",")
+                .map(x => x.replace(/ /g, ''))
+                .map(o => {
+                    const isAddress = o[0] === '(' && o[o.length-1] === ')'
+                    const value = isAddress ? Number(o.slice(1,o.length-1)) : Number(o)
+                    return {
+                        isAddress: isAddress,
+                        value: value,
+                        text: o
+                    }
+                })
             // console.log("Got", operands.length, "operands:", operands)
 
             return {
@@ -36,24 +48,11 @@ const parse = line => {
     return null
 }
 
-const strRepresentationToInteger = stringRepresentation => {
-    const prefix = stringRepresentation.slice(0, 2)
-    let base = null
-    let value = null
-    if (prefix === "0X") {
-        base = 16
-        value = Number(stringRepresentation.slice(2))
-    } else if (prefix === "0B") {
-        base = 2
-        value = Number(stringRepresentation.slice(2))
-    } else {
-        base = 10
-        value = Number(stringRepresentation)
-    }
-    return parseInt(value, base)
-}
-
 const assembly = syntaxObj => {
+
+    const oneByte = Number(0xff)
+    const twoBytes = Number(0xffff)
+
     console.log("Syntax:", syntaxObj)
 
     const instructionMatches = ISA.instructions
@@ -73,32 +72,40 @@ const assembly = syntaxObj => {
                     const isaOperand = isaInstruction.operands[o]
                     const inputOperand = syntaxObj.operands[o]
 
-                    // console.log("Looking for match between operand", isaOperand.description, "and", inputOperand)
-
                     switch (isaOperand.mask) {
                         case '':
-                            if (isaOperand.description === inputOperand) {
+                            if (isaOperand.description === inputOperand.text) {
                                 matchedOperands++
                                 break;
                             } else {
+                                return false
+                            }
+                        case '(h)':
+                            if (inputOperand.isAddress && inputOperand.value <= oneByte) {
+                                matchedOperands++
+                                break;
+                            } else {                                
                                 return false
                             }
                         case 'h':
-                            const oneByte = 0xff
-                            if (strRepresentationToInteger(inputOperand) <= parseInt(oneByte, 16)) {
+                            if (inputOperand.value <= oneByte) {
                                 matchedOperands++
                                 break;
                             } else {
-                                console.log("The provided operand value", inputOperand, "exeedes the limit", oneByte.toString())
+                                return false
+                            }
+                        case '(hh)':
+                            if (inputOperand.isAddress && inputOperand.value <= twoBytes) {
+                                matchedOperands++
+                                break;
+                            } else {
                                 return false
                             }
                         case 'hh':
-                            const twoBytes = 0xffff
-                            if (strRepresentationToInteger(inputOperand) <= parseInt(twoBytes, 16)) {
+                            if (inputOperand.value <= twoBytes) {
                                 matchedOperands++
                                 break;
                             } else {
-                                console.log("The provided operand value", inputOperand, "exeedes the limit", twoBytes.toString())
                                 return false
                             }
                         default:
@@ -114,8 +121,8 @@ const assembly = syntaxObj => {
                 let machineCode = []
                 machineCode.push(instructionMatch.opcode)
                 instructionMatch.operands.forEach((operand, i) => {
-                    if (operand.size && operand.size !== null && operand.size > 0) {
-                        machineCode.push(strRepresentationToInteger(syntaxObj.operands[i]))
+                    if (operand.size && operand.size !== null && operand.size > 0) {    
+                        machineCode.push(syntaxObj.operands[i].value)
                     }
                 })
                 console.log("Translated instruction", syntaxObj, "to machine code", machineCode)
