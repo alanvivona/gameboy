@@ -1,4 +1,4 @@
-const assembler = require('../asm')
+const Assembler = require('../asm')
 
 const testCases = [
 
@@ -420,6 +420,16 @@ const testCases = [
         { "input": "JR NC,*", "hex": "30" },
         { "input": "JR C,*", "hex": "38" },
         { "input": "XOR *", "hex": "ee" },
+
+        { "input": "LD SP,HL", "hex": "f9" },
+   
+        { "input": "LD BC,nn", "hex": "01" },
+        { "input": "LD (nn),SP", "hex": "08" },
+        { "input": "LD DE,nn", "hex": "11" },
+        { "input": "LD HL,nn", "hex": "21" },
+        { "input": "LD SP,nn", "hex": "31" },
+    
+        { "input": "LD (HL),n", "hex": "36" },
     */
 
 ]
@@ -433,7 +443,7 @@ const statistics = {
 testCases.forEach(test => {
     console.log("=================================================")
     statistics.tests += 1
-    const machineCode = assembler.asmLine(test.input)
+    const machineCode = Assembler.asmLine(test.input)
     const resultText = machineCode
         .map(c => Number(c).toString(16))
         // padding with zero
