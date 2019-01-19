@@ -185,6 +185,116 @@ const testCases = [
     { "input": "POP HL", "hex": "e1" },
     { "input": "POP AF", "hex": "f1" },
 
+    // ALU : ADD A
+    { "input": "ADD A,A", "hex": "87" },
+    { "input": "ADD A,B", "hex": "80" },
+    { "input": "ADD A,C", "hex": "81" },
+    { "input": "ADD A,D", "hex": "82" },
+    { "input": "ADD A,E", "hex": "83" },
+    { "input": "ADD A,H", "hex": "84" },
+    { "input": "ADD A,L", "hex": "85" },
+    { "input": "ADD A,(HL)", "hex": "86" },
+    { "input": "ADD A,0x55", "hex": "c655" },
+
+    // ALU : ADC A
+    { "input": "ADC A,B", "hex": "88" },
+    { "input": "ADC A,C", "hex": "89" },
+    { "input": "ADC A,D", "hex": "8a" },
+    { "input": "ADC A,E", "hex": "8b" },
+    { "input": "ADC A,H", "hex": "8c" },
+    { "input": "ADC A,L", "hex": "8d" },
+    { "input": "ADC A,(HL)", "hex": "8e" },
+    { "input": "ADC A,A", "hex": "8f" },
+    { "input": "ADC A,0x55", "hex": "ce55" },
+
+    // ALU : SUB from A
+    { "input": "SUB B", "hex": "90" },
+    { "input": "SUB C", "hex": "91" },
+    { "input": "SUB D", "hex": "92" },
+    { "input": "SUB E", "hex": "93" },
+    { "input": "SUB H", "hex": "94" },
+    { "input": "SUB L", "hex": "95" },
+    { "input": "SUB (HL)", "hex": "96" },
+    { "input": "SUB A", "hex": "97" },
+    { "input": "SUB 0x55", "hex": "d655" },
+
+    // ALU : SBC from A
+    { "input": "SBC A,B", "hex": "98" },
+    { "input": "SBC A,C", "hex": "99" },
+    { "input": "SBC A,D", "hex": "9a" },
+    { "input": "SBC A,E", "hex": "9b" },
+    { "input": "SBC A,H", "hex": "9c" },
+    { "input": "SBC A,L", "hex": "9d" },
+    { "input": "SBC A,(HL)", "hex": "9e" },
+    { "input": "SBC A,A", "hex": "9f" },
+    // [WARNING!] The manual does not have an opcode for this instruction!!!
+    // THIS WILL FAIL      
+    // { "input": "SBC A,#", "hex": "????" },
+
+    // ALU : AND A
+    { "input": "AND B", "hex": "a0" },
+    { "input": "AND C", "hex": "a1" },
+    { "input": "AND D", "hex": "a2" },
+    { "input": "AND E", "hex": "a3" },
+    { "input": "AND H", "hex": "a4" },
+    { "input": "AND L", "hex": "a5" },
+    { "input": "AND (HL)", "hex": "a6" },
+    { "input": "AND A", "hex": "a7" },
+    { "input": "AND 0x55", "hex": "e655" },
+
+    // ALU : OR A
+    { "input": "OR B", "hex": "b0" },
+    { "input": "OR C", "hex": "b1" },
+    { "input": "OR D", "hex": "b2" },
+    { "input": "OR E", "hex": "b3" },
+    { "input": "OR H", "hex": "b4" },
+    { "input": "OR L", "hex": "b5" },
+    { "input": "OR (HL)", "hex": "b6" },
+    { "input": "OR A", "hex": "b7" },
+    { "input": "OR 0x55", "hex": "f655" },
+
+    // ALU : XOR with A
+    { "input": "XOR B", "hex": "a8" },
+    { "input": "XOR C", "hex": "a9" },
+    { "input": "XOR D", "hex": "aa" },
+    { "input": "XOR E", "hex": "ab" },
+    { "input": "XOR H", "hex": "ac" },
+    { "input": "XOR L", "hex": "ad" },
+    { "input": "XOR (HL)", "hex": "ae" },
+    { "input": "XOR A", "hex": "af" },
+    { "input": "XOR 0x55", "hex": "ee55" },
+    
+    // ALU : CP with A
+    { "input": "CP A", "hex": "bf" }, 
+    { "input": "CP B", "hex": "b8" },
+    { "input": "CP C", "hex": "b9" },
+    { "input": "CP D", "hex": "ba" },
+    { "input": "CP E", "hex": "bb" },
+    { "input": "CP H", "hex": "bc" },
+    { "input": "CP L", "hex": "bd" },
+    { "input": "CP (HL)", "hex": "be" },
+    { "input": "CP 0x55", "hex": "fe55" },
+
+    // ALU : INC 8bit
+    { "input": "INC A", "hex": "3c" },
+    { "input": "INC B", "hex": "04" },
+    { "input": "INC C", "hex": "0c" },
+    { "input": "INC D", "hex": "14" },
+    { "input": "INC E", "hex": "1c" },
+    { "input": "INC H", "hex": "24" },
+    { "input": "INC L", "hex": "2c" },
+    { "input": "INC (HL)", "hex": "34" },
+
+    // ALU : INC 8bit
+    { "input": "DEC A", "hex": "3d" },
+    { "input": "DEC B", "hex": "05" },
+    { "input": "DEC C", "hex": "0d" },
+    { "input": "DEC D", "hex": "15" },
+    { "input": "DEC E", "hex": "1d" },
+    { "input": "DEC H", "hex": "25" },
+    { "input": "DEC L", "hex": "2d" },
+    { "input": "DEC (HL)", "hex": "35" },
+
     // NOT TESTED YET 
     // IM ON PAGE 65
     /* 

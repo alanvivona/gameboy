@@ -56,7 +56,7 @@
         },
         {
             "opcode": 3,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC BC",
             "operands": [
@@ -70,7 +70,7 @@
         },
         {
             "opcode": 4,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC B",
             "operands": [
@@ -84,7 +84,7 @@
         },
         {
             "opcode": 5,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC B",
             "operands": [
@@ -185,7 +185,7 @@
         },
         {
             "opcode": 11,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC BC",
             "operands": [
@@ -199,7 +199,7 @@
         },
         {
             "opcode": 12,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC C",
             "operands": [
@@ -213,7 +213,7 @@
         },
         {
             "opcode": 13,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC C",
             "operands": [
@@ -294,7 +294,7 @@
         },
         {
             "opcode": 19,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC DE",
             "operands": [
@@ -308,7 +308,7 @@
         },
         {
             "opcode": 20,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC D",
             "operands": [
@@ -322,7 +322,7 @@
         },
         {
             "opcode": 21,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC D",
             "operands": [
@@ -417,7 +417,7 @@
         },
         {
             "opcode": 27,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC DE",
             "operands": [
@@ -431,7 +431,7 @@
         },
         {
             "opcode": 28,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC E",
             "operands": [
@@ -445,7 +445,7 @@
         },
         {
             "opcode": 29,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC E",
             "operands": [
@@ -586,7 +586,7 @@
         },
         {
             "opcode": 35,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC HL",
             "operands": [
@@ -600,7 +600,7 @@
         },
         {
             "opcode": 36,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC H",
             "operands": [
@@ -614,7 +614,7 @@
         },
         {
             "opcode": 37,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC H",
             "operands": [
@@ -755,7 +755,7 @@
         },
         {
             "opcode": 43,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC HL",
             "operands": [
@@ -769,7 +769,7 @@
         },
         {
             "opcode": 44,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC L",
             "operands": [
@@ -783,7 +783,7 @@
         },
         {
             "opcode": 45,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC L",
             "operands": [
@@ -924,7 +924,7 @@
         },
         {
             "opcode": 51,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC SP",
             "operands": [
@@ -938,7 +938,7 @@
         },
         {
             "opcode": 52,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC (HL)",
             "operands": [
@@ -952,7 +952,7 @@
         },
         {
             "opcode": 53,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC (HL)",
             "operands": [
@@ -1093,7 +1093,7 @@
         },
         {
             "opcode": 59,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC SP",
             "operands": [
@@ -1107,7 +1107,7 @@
         },
         {
             "opcode": 60,
-            "description": "descriptions are not yet supported",
+            "description": "Increment register",
             "mnemonic": "INC",
             "fullMnemonic": "INC A",
             "operands": [
@@ -1121,7 +1121,7 @@
         },
         {
             "opcode": 61,
-            "description": "descriptions are not yet supported",
+            "description": "Decrement register",
             "mnemonic": "DEC",
             "fullMnemonic": "DEC A",
             "operands": [
@@ -2443,7 +2443,7 @@
         },
         {
             "opcode": 128,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,B",
             "operands": [
@@ -2463,7 +2463,7 @@
         },
         {
             "opcode": 129,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,C",
             "operands": [
@@ -2483,7 +2483,7 @@
         },
         {
             "opcode": 130,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,D",
             "operands": [
@@ -2503,7 +2503,7 @@
         },
         {
             "opcode": 131,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,E",
             "operands": [
@@ -2523,7 +2523,7 @@
         },
         {
             "opcode": 132,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,H",
             "operands": [
@@ -2543,7 +2543,7 @@
         },
         {
             "opcode": 133,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,L",
             "operands": [
@@ -2563,7 +2563,7 @@
         },
         {
             "opcode": 134,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,(HL)",
             "operands": [
@@ -2583,7 +2583,7 @@
         },
         {
             "opcode": 135,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,A",
             "operands": [
@@ -2603,7 +2603,7 @@
         },
         {
             "opcode": 136,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,B",
             "operands": [
@@ -2623,7 +2623,7 @@
         },
         {
             "opcode": 137,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,C",
             "operands": [
@@ -2643,7 +2643,7 @@
         },
         {
             "opcode": 138,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,D",
             "operands": [
@@ -2663,7 +2663,7 @@
         },
         {
             "opcode": 139,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,E",
             "operands": [
@@ -2683,7 +2683,7 @@
         },
         {
             "opcode": 140,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,H",
             "operands": [
@@ -2703,7 +2703,7 @@
         },
         {
             "opcode": 141,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,L",
             "operands": [
@@ -2723,7 +2723,7 @@
         },
         {
             "opcode": 142,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,(HL)",
             "operands": [
@@ -2743,7 +2743,7 @@
         },
         {
             "opcode": 143,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,A",
             "operands": [
@@ -2763,7 +2763,7 @@
         },
         {
             "opcode": 144,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB B",
             "operands": [
@@ -2777,7 +2777,7 @@
         },
         {
             "opcode": 145,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB C",
             "operands": [
@@ -2791,7 +2791,7 @@
         },
         {
             "opcode": 146,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB D",
             "operands": [
@@ -2805,7 +2805,7 @@
         },
         {
             "opcode": 147,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB E",
             "operands": [
@@ -2819,7 +2819,7 @@
         },
         {
             "opcode": 148,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB H",
             "operands": [
@@ -2833,7 +2833,7 @@
         },
         {
             "opcode": 149,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB L",
             "operands": [
@@ -2847,7 +2847,7 @@
         },
         {
             "opcode": 150,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB (HL)",
             "operands": [
@@ -2861,7 +2861,7 @@
         },
         {
             "opcode": 151,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB A",
             "operands": [
@@ -2875,7 +2875,7 @@
         },
         {
             "opcode": 152,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,B",
             "operands": [
@@ -2895,7 +2895,7 @@
         },
         {
             "opcode": 153,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,C",
             "operands": [
@@ -2915,7 +2915,7 @@
         },
         {
             "opcode": 154,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,D",
             "operands": [
@@ -2935,7 +2935,7 @@
         },
         {
             "opcode": 155,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,E",
             "operands": [
@@ -2955,7 +2955,7 @@
         },
         {
             "opcode": 156,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,H",
             "operands": [
@@ -2975,7 +2975,7 @@
         },
         {
             "opcode": 157,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,L",
             "operands": [
@@ -2995,7 +2995,7 @@
         },
         {
             "opcode": 158,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,(HL)",
             "operands": [
@@ -3015,7 +3015,7 @@
         },
         {
             "opcode": 159,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,A",
             "operands": [
@@ -3035,7 +3035,7 @@
         },
         {
             "opcode": 160,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND B",
             "operands": [
@@ -3049,7 +3049,7 @@
         },
         {
             "opcode": 161,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND C",
             "operands": [
@@ -3063,7 +3063,7 @@
         },
         {
             "opcode": 162,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND D",
             "operands": [
@@ -3077,7 +3077,7 @@
         },
         {
             "opcode": 163,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND E",
             "operands": [
@@ -3091,7 +3091,7 @@
         },
         {
             "opcode": 164,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND H",
             "operands": [
@@ -3105,7 +3105,7 @@
         },
         {
             "opcode": 165,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND L",
             "operands": [
@@ -3119,7 +3119,7 @@
         },
         {
             "opcode": 166,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND (HL)",
             "operands": [
@@ -3133,7 +3133,7 @@
         },
         {
             "opcode": 167,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND A",
             "operands": [
@@ -3147,7 +3147,7 @@
         },
         {
             "opcode": 168,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR B",
             "operands": [
@@ -3161,7 +3161,7 @@
         },
         {
             "opcode": 169,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR C",
             "operands": [
@@ -3175,7 +3175,7 @@
         },
         {
             "opcode": null,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract n + Carry flag from A. The manual does not have an opcode for this instruction!!!",
             "mnemonic": "SBC",
             "fullMnemonic": "SBC A,#",
             "operands": [
@@ -3187,15 +3187,15 @@
                 },
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
         {
             "opcode": 170,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR D",
             "operands": [
@@ -3209,7 +3209,7 @@
         },
         {
             "opcode": 171,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR E",
             "operands": [
@@ -3223,7 +3223,7 @@
         },
         {
             "opcode": 172,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR H",
             "operands": [
@@ -3237,7 +3237,7 @@
         },
         {
             "opcode": 173,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR L",
             "operands": [
@@ -3251,7 +3251,7 @@
         },
         {
             "opcode": 174,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR (HL)",
             "operands": [
@@ -3265,7 +3265,7 @@
         },
         {
             "opcode": 175,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
             "fullMnemonic": "XOR A",
             "operands": [
@@ -3279,7 +3279,7 @@
         },
         {
             "opcode": 176,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR B",
             "operands": [
@@ -3293,7 +3293,7 @@
         },
         {
             "opcode": 177,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR C",
             "operands": [
@@ -3307,7 +3307,7 @@
         },
         {
             "opcode": 178,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR D",
             "operands": [
@@ -3321,7 +3321,7 @@
         },
         {
             "opcode": 179,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR E",
             "operands": [
@@ -3335,7 +3335,7 @@
         },
         {
             "opcode": 180,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR H",
             "operands": [
@@ -3349,7 +3349,7 @@
         },
         {
             "opcode": 181,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR L",
             "operands": [
@@ -3363,7 +3363,7 @@
         },
         {
             "opcode": 182,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR (HL)",
             "operands": [
@@ -3377,7 +3377,7 @@
         },
         {
             "opcode": 183,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR A",
             "operands": [
@@ -3391,7 +3391,7 @@
         },
         {
             "opcode": 184,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP B",
             "operands": [
@@ -3405,7 +3405,7 @@
         },
         {
             "opcode": 185,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP C",
             "operands": [
@@ -3419,7 +3419,7 @@
         },
         {
             "opcode": 186,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP D",
             "operands": [
@@ -3433,7 +3433,7 @@
         },
         {
             "opcode": 187,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP E",
             "operands": [
@@ -3447,7 +3447,7 @@
         },
         {
             "opcode": 188,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP H",
             "operands": [
@@ -3461,7 +3461,7 @@
         },
         {
             "opcode": 189,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP L",
             "operands": [
@@ -3475,7 +3475,7 @@
         },
         {
             "opcode": 190,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP (HL)",
             "operands": [
@@ -3489,7 +3489,7 @@
         },
         {
             "opcode": 191,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP A",
             "operands": [
@@ -3585,7 +3585,7 @@
         },
         {
             "opcode": 198,
-            "description": "descriptions are not yet supported",
+            "description": "Add n to A",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD A,#",
             "operands": [
@@ -3597,9 +3597,9 @@
                 },
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -3827,7 +3827,7 @@
         },
         {
             "opcode": 206,
-            "description": "descriptions are not yet supported",
+            "description": "Add n + Carry flag to A",
             "mnemonic": "ADC",
             "fullMnemonic": "ADC A,#",
             "operands": [
@@ -3839,9 +3839,9 @@
                 },
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -3943,15 +3943,15 @@
         },
         {
             "opcode": 214,
-            "description": "descriptions are not yet supported",
+            "description": "Subtract from A",
             "mnemonic": "SUB",
             "fullMnemonic": "SUB #",
             "operands": [
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -4121,15 +4121,15 @@
         },
         {
             "opcode": 230,
-            "description": "descriptions are not yet supported",
+            "description": "Logically AND n with A, result in A",
             "mnemonic": "AND",
             "fullMnemonic": "AND #",
             "operands": [
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -4203,15 +4203,15 @@
         },
         {
             "opcode": 238,
-            "description": "descriptions are not yet supported",
+            "description": "Logical exclusive OR n with register A, result in A",
             "mnemonic": "XOR",
-            "fullMnemonic": "XOR *",
+            "fullMnemonic": "XOR #",
             "operands": [
                 {
-                    "description": "*",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "description": "#",
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -4312,15 +4312,15 @@
         },
         {
             "opcode": 246,
-            "description": "descriptions are not yet supported",
+            "description": "Logical OR n with register A, result in A",
             "mnemonic": "OR",
             "fullMnemonic": "OR #",
             "operands": [
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -4414,15 +4414,15 @@
         },
         {
             "opcode": 254,
-            "description": "descriptions are not yet supported",
+            "description": "Compare A with n. This is basically an A - n subtraction instruction but the results are thrown away",
             "mnemonic": "CP",
             "fullMnemonic": "CP #",
             "operands": [
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
