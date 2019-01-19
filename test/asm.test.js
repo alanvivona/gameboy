@@ -1,7 +1,6 @@
 const Assembler = require('../asm')
 
 const testCases = [
-/*
     // LD instruction reg to reg
       { "input": "LD B,B", "hex": "40" },
       { "input": "LD B,C", "hex": "41" },
@@ -321,7 +320,7 @@ const testCases = [
     { "input": "SWAP E", "hex": "cb" },
     { "input": "SWAP A", "hex": "cb" },
     { "input": "SWAP L", "hex": "cb" },
-*/
+
     { "input": "DAA", "hex": "27" },
 
     { "input": "CPL", "hex": "2f" },
@@ -417,10 +416,64 @@ const testCases = [
     { "input": "JR NC,0x55", "hex": "3055" },
     { "input": "JR C,0x55", "hex": "3855" },
 
+    // CALL
+    { "input": "CALL 0x55aa", "hex": "cd55aa" },
+    { "input": "CALL NZ,0x55aa", "hex": "c455aa" },
+    { "input": "CALL Z,0x55aa", "hex": "cc55aa" },
+    { "input": "CALL NC,0x55aa", "hex": "d455aa" },
+    { "input": "CALL C,0x55aa", "hex": "dc55aa" },
+
+    // RST
+    { "input": "RST 00H", "hex": "c7" },
+    { "input": "RST 08H", "hex": "cf" },
+    { "input": "RST 10H", "hex": "d7" },
+    { "input": "RST 18H", "hex": "df" },
+    { "input": "RST 20H", "hex": "e7" },
+    { "input": "RST 28H", "hex": "ef" },
+    { "input": "RST 30H", "hex": "f7" },
+    { "input": "RST 38H", "hex": "ff" },
+
+    // Returns
+    { "input": "RET", "hex": "c9" },
+    { "input": "RET NZ", "hex": "c0" },
+    { "input": "RET Z", "hex": "c8" },
+    { "input": "RET NC", "hex": "d0" },
+    { "input": "RET C", "hex": "d8" },
+    { "input": "RETI", "hex": "d9" },
+
+
     // NOT TESTED YET 
     // BIT operations need a different mask structure
     /* 
-        
+        // BIT OPS
+        { "input": "BIT b,B", "hex": "cb40" },
+        { "input": "BIT b,C", "hex": "cb41" },
+        { "input": "BIT b,D", "hex": "cb42" },
+        { "input": "BIT b,E", "hex": "cb43" },
+        { "input": "BIT b,H", "hex": "cb44" },
+        { "input": "BIT b,L", "hex": "cb45" },
+        { "input": "BIT b,(HL)", "hex": "cb46" },
+        { "input": "BIT b,A", "hex": "cb47" },
+        { "input": "RES b,B", "hex": "cb80" },
+        { "input": "RES b,C", "hex": "cb81" },
+        { "input": "RES b,D", "hex": "cb82" },
+        { "input": "RES b,E", "hex": "cb83" },
+        { "input": "RES b,H", "hex": "cb84" },
+        { "input": "RES b,L", "hex": "cb85" },
+        { "input": "RES b,(HL)", "hex": "cb86" },
+        { "input": "RES b,A", "hex": "cb87" },
+        { "input": "SET b,B", "hex": "cbc0" },
+        { "input": "SET b,C", "hex": "cbc1" },
+        { "input": "SET b,D", "hex": "cbc2" },
+        { "input": "SET b,E", "hex": "cbc3" },
+        { "input": "SET b,H", "hex": "cbc4" },
+        { "input": "SET b,L", "hex": "cbc5" },
+        { "input": "SET b,(HL)", "hex": "cbc6" },
+        { "input": "SET b,A", "hex": "cbc7" },
+
+        // IDK what this is, probably a mistake, recheck
+        { "input": "LD (HL),n", "hex": "36" },
+
     */
 
 ]

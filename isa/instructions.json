@@ -3482,7 +3482,7 @@
         },
         {
             "opcode": 192,
-            "description": "descriptions are not yet supported",
+            "description": "Return if following condition is true",
             "mnemonic": "RET",
             "fullMnemonic": "RET NZ",
             "operands": [
@@ -3543,7 +3543,7 @@
         },
         {
             "opcode": 196,
-            "description": "descriptions are not yet supported",
+            "description": "Call address condition is true",
             "mnemonic": "CALL",
             "fullMnemonic": "CALL NZ,nn",
             "operands": [
@@ -3597,7 +3597,7 @@
         },
         {
             "opcode": 199,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 00H",
             "operands": [
@@ -3611,7 +3611,7 @@
         },
         {
             "opcode": 200,
-            "description": "descriptions are not yet supported",
+            "description": "Return if following condition is true",
             "mnemonic": "RET",
             "fullMnemonic": "RET Z",
             "operands": [
@@ -3625,7 +3625,7 @@
         },
         {
             "opcode": 201,
-            "description": "descriptions are not yet supported",
+            "description": "Pop two bytes from stack & jump to that address",
             "mnemonic": "RET",
             "fullMnemonic": "RET",
             "operands": []
@@ -3778,7 +3778,7 @@
         },
         {
             "opcode": 204,
-            "description": "descriptions are not yet supported",
+            "description": "Call address condition is true",
             "mnemonic": "CALL",
             "fullMnemonic": "CALL Z,nn",
             "operands": [
@@ -3798,7 +3798,7 @@
         },
         {
             "opcode": 205,
-            "description": "descriptions are not yet supported",
+            "description": "Push address of next instruction onto stack and then jump to address",
             "mnemonic": "CALL",
             "fullMnemonic": "CALL nn",
             "operands": [
@@ -3832,7 +3832,7 @@
         },
         {
             "opcode": 207,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 08H",
             "operands": [
@@ -3846,7 +3846,7 @@
         },
         {
             "opcode": 208,
-            "description": "descriptions are not yet supported",
+            "description": "Return if following condition is true",
             "mnemonic": "RET",
             "fullMnemonic": "RET NC",
             "operands": [
@@ -3894,7 +3894,7 @@
         },
         {
             "opcode": 212,
-            "description": "descriptions are not yet supported",
+            "description": "Call address condition is true",
             "mnemonic": "CALL",
             "fullMnemonic": "CALL NC,nn",
             "operands": [
@@ -3942,7 +3942,7 @@
         },
         {
             "opcode": 215,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 10H",
             "operands": [
@@ -3956,7 +3956,7 @@
         },
         {
             "opcode": 216,
-            "description": "descriptions are not yet supported",
+            "description": "Return if following condition is true",
             "mnemonic": "RET",
             "fullMnemonic": "RET C",
             "operands": [
@@ -3970,7 +3970,7 @@
         },
         {
             "opcode": 217,
-            "description": "descriptions are not yet supported",
+            "description": "Pop two bytes from stack & jump to that address then enable interrupts",
             "mnemonic": "RETI",
             "fullMnemonic": "RETI",
             "operands": []
@@ -3997,7 +3997,7 @@
         },
         {
             "opcode": 220,
-            "description": "descriptions are not yet supported",
+            "description": "Call address condition is true",
             "mnemonic": "CALL",
             "fullMnemonic": "CALL C,nn",
             "operands": [
@@ -4017,7 +4017,7 @@
         },
         {
             "opcode": 223,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 18H",
             "operands": [
@@ -4113,7 +4113,7 @@
         },
         {
             "opcode": 231,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 20H",
             "operands": [
@@ -4195,7 +4195,7 @@
         },
         {
             "opcode": 239,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 28H",
             "operands": [
@@ -4297,7 +4297,7 @@
         },
         {
             "opcode": 247,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 30H",
             "operands": [
@@ -4392,7 +4392,7 @@
         },
         {
             "opcode": 255,
-            "description": "descriptions are not yet supported",
+            "description": "Push presetn address onto stack. Jump to address $0000 + n",
             "mnemonic": "RST",
             "fullMnemonic": "RST 38H",
             "operands": [
