@@ -17,12 +17,14 @@ const parse = line => {
         if (instruction.length > 0) {
             const mnemonic = instruction.shift().trim()
             // console.log("Got mnemonic:", mnemonic)
+            // console.log("Got instruction:", instruction)
 
             // remove all whitespaces, they are not needed anymore at this point
             const operands = instruction
                 .join("")
                 .split(",")
                 .map(x => x.replace(/ /g, ''))
+                .filter(s => s.length > 0)
                 .map(o => {
                     const isAddress = o[0] === '(' && o[o.length-1] === ')'
                     const value = isAddress ? Number(o.slice(1,o.length-1)) : Number(o)

@@ -158,7 +158,7 @@ const testCases = [
     // LDH : Put A into memory address $FF00+n and viceversa
     { "input": "LDH (0xff),A", "hex": "e0ff" },
     { "input": "LDH A,(0xff)", "hex": "f0ff" },
-*/
+
     // LD 16bit
     { "input": "LD BC,0x55aa", "hex": "0155aa" },
     { "input": "LD DE,0x55aa", "hex": "1155aa" },
@@ -294,6 +294,108 @@ const testCases = [
     { "input": "DEC H", "hex": "25" },
     { "input": "DEC L", "hex": "2d" },
     { "input": "DEC (HL)", "hex": "35" },
+
+    // ALU 16bit add to HL
+    { "input": "ADD HL,BC", "hex": "09" },
+    { "input": "ADD HL,DE", "hex": "19" },
+    { "input": "ADD HL,HL", "hex": "29" },
+    { "input": "ADD HL,SP", "hex": "39" },
+
+    { "input": "ADD SP,0x55", "hex": "e855" },
+
+    { "input": "INC BC", "hex": "03" },
+    { "input": "INC DE", "hex": "13" },
+    { "input": "INC HL", "hex": "23" },
+    { "input": "INC SP", "hex": "33" },
+
+    { "input": "DEC BC", "hex": "0b" },
+    { "input": "DEC DE", "hex": "1b" },
+    { "input": "DEC HL", "hex": "2b" },
+    { "input": "DEC SP", "hex": "3b" },
+
+    { "input": "SWAP (HL)", "hex": "cb" },
+    { "input": "SWAP H", "hex": "cb" },
+    { "input": "SWAP B", "hex": "cb" },
+    { "input": "SWAP D", "hex": "cb" },
+    { "input": "SWAP C", "hex": "cb" },
+    { "input": "SWAP E", "hex": "cb" },
+    { "input": "SWAP A", "hex": "cb" },
+    { "input": "SWAP L", "hex": "cb" },
+*/
+    { "input": "DAA", "hex": "27" },
+
+    { "input": "CPL", "hex": "2f" },
+
+    { "input": "CCF", "hex": "3f" },
+
+    { "input": "SCF", "hex": "37" },
+
+    { "input": "NOP", "hex": "00" },
+
+    { "input": "HALT", "hex": "76" },
+
+    { "input": "STOP", "hex": "1000" },
+
+    // Interrupts
+    { "input": "DI", "hex": "f3" },
+    { "input": "EI", "hex": "fb" },
+
+    // Rotates
+    { "input": "RLCA", "hex": "07" },
+    { "input": "RLA", "hex": "17" },
+    { "input": "RRCA", "hex": "0f" },
+    { "input": "RRA", "hex": "1f" },
+    { "input": "RLC A", "hex": "cb" },
+    { "input": "RLC B", "hex": "cb00" },
+    { "input": "RLC C", "hex": "cb01" },
+    { "input": "RLC D", "hex": "cb02" },
+    { "input": "RLC E", "hex": "cb03" },
+    { "input": "RLC H", "hex": "cb04" },
+    { "input": "RLC L", "hex": "cb05" },
+    { "input": "RLC (HL)", "hex": "cb06" },
+    { "input": "RL B", "hex": "cb10" },
+    { "input": "RL C", "hex": "cb11" },
+    { "input": "RL D", "hex": "cb12" },
+    { "input": "RL E", "hex": "cb13" },
+    { "input": "RL H", "hex": "cb14" },
+    { "input": "RL L", "hex": "cb15" },
+    { "input": "RL (HL)", "hex": "cb16" },
+    { "input": "RL A", "hex": "cb17" },   
+    { "input": "RRC B", "hex": "cb08" },
+    { "input": "RRC C", "hex": "cb09" },
+    { "input": "RRC D", "hex": "cb0a" },
+    { "input": "RRC E", "hex": "cb0b" },
+    { "input": "RRC H", "hex": "cb0c" },
+    { "input": "RRC L", "hex": "cb0d" },
+    { "input": "RRC (HL)", "hex": "cb0e" },
+    { "input": "RRC A", "hex": "cb0f" },
+    { "input": "RR B", "hex": "cb18" },
+    { "input": "RR C", "hex": "cb19" },
+    { "input": "RR D", "hex": "cb1a" },
+    { "input": "RR E", "hex": "cb1b" },
+    { "input": "RR H", "hex": "cb1c" },
+    { "input": "RR L", "hex": "cb1d" },
+    { "input": "RR (HL)", "hex": "cb1e" },
+    { "input": "RR A", "hex": "cb1f" },
+
+    // Shifts
+    { "input": "SLA B", "hex": "cb20" },
+    { "input": "SLA C", "hex": "cb21" },
+    { "input": "SLA D", "hex": "cb22" },
+    { "input": "SLA E", "hex": "cb23" },
+    { "input": "SLA H", "hex": "cb24" },
+    { "input": "SLA L", "hex": "cb25" },
+    { "input": "SLA (HL)", "hex": "cb26" },
+    { "input": "SLA A", "hex": "cb27" },
+    { "input": "SRA B", "hex": "cb28" },
+    { "input": "SRA C", "hex": "cb29" },
+    { "input": "SRA D", "hex": "cb2a" },
+    { "input": "SRA E", "hex": "cb2b" },
+    { "input": "SRA H", "hex": "cb2c" },
+    { "input": "SRA L", "hex": "cb2d" },
+    { "input": "SRA (HL)", "hex": "cb2e" },
+    { "input": "SRA A", "hex": "cb2f" },
+
 
     // NOT TESTED YET 
     // IM ON PAGE 65

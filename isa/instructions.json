@@ -2,17 +2,10 @@
     "instructions": [
         {
             "opcode": 0,
-            "description": "descriptions are not yet supported",
+            "description": "No operation",
             "mnemonic": "NOP",
-            "fullMnemonic": "NOP -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "NOP",
+            "operands": []
         },
         {
             "opcode": 1,
@@ -118,7 +111,7 @@
         },
         {
             "opcode": 7,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate A left. Old bit 7 to Carry flag",
             "mnemonic": "RLCA",
             "fullMnemonic": "RLCA",
             "operands": []
@@ -145,7 +138,7 @@
         },
         {
             "opcode": 9,
-            "description": "descriptions are not yet supported",
+            "description": "Add double register to HL",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD HL,BC",
             "operands": [
@@ -247,7 +240,7 @@
         },
         {
             "opcode": 15,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate A right. Old bit 0 to Carry flag",
             "mnemonic": "RRCA",
             "fullMnemonic": "RRCA",
             "operands": []
@@ -356,7 +349,7 @@
         },
         {
             "opcode": 23,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate A left through Carry flag.",
             "mnemonic": "RLA",
             "fullMnemonic": "RLA",
             "operands": []
@@ -377,7 +370,7 @@
         },
         {
             "opcode": 25,
-            "description": "descriptions are not yet supported",
+            "description": "Add double register to HL",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD HL,DE",
             "operands": [
@@ -479,7 +472,7 @@
         },
         {
             "opcode": 31,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate A right through Carry flag",
             "mnemonic": "RRA",
             "fullMnemonic": "RRA",
             "operands": []
@@ -648,7 +641,7 @@
         },
         {
             "opcode": 39,
-            "description": "descriptions are not yet supported",
+            "description": "Decimal adjust register A. This instruction adjusts register A so that the correct representation of Binary Coded Decimal (BCD) is obtained",
             "mnemonic": "DAA",
             "fullMnemonic": "DAA",
             "operands": []
@@ -675,7 +668,7 @@
         },
         {
             "opcode": 41,
-            "description": "descriptions are not yet supported",
+            "description": "Add double register to HL",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD HL,HL",
             "operands": [
@@ -817,7 +810,7 @@
         },
         {
             "opcode": 47,
-            "description": "descriptions are not yet supported",
+            "description": "Complement A register. (Flip all bits.)",
             "mnemonic": "CPL",
             "fullMnemonic": "CPL",
             "operands": []
@@ -986,7 +979,7 @@
         },
         {
             "opcode": 55,
-            "description": "descriptions are not yet supported",
+            "description": "Set Carry flag.",
             "mnemonic": "SCF",
             "fullMnemonic": "SCF",
             "operands": []
@@ -1013,7 +1006,7 @@
         },
         {
             "opcode": 57,
-            "description": "descriptions are not yet supported",
+            "description": "Add double register to HL",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD HL,SP",
             "operands": [
@@ -1155,17 +1148,10 @@
         },
         {
             "opcode": 63,
-            "description": "descriptions are not yet supported",
+            "description": "Complement carry flag. If C flag is set, then reset it. If C flag is reset, then set it.",
             "mnemonic": "CCF",
-            "fullMnemonic": "CCF -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "CCF",
+            "operands": []
         },
         {
             "opcode": 64,
@@ -2249,17 +2235,10 @@
         },
         {
             "opcode": 118,
-            "description": "descriptions are not yet supported",
+            "description": "Power down CPU until an interrupt occurs. Use this when ever possible to reduce energy consumption",
             "mnemonic": "HALT",
-            "fullMnemonic": "HALT -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "HALT",
+            "operands": []
         },
         {
             "opcode": 119,
@@ -3635,15 +3614,8 @@
             "opcode": 201,
             "description": "descriptions are not yet supported",
             "mnemonic": "RET",
-            "fullMnemonic": "RET -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "RET",
+            "operands": []
         },
         {
             "opcode": 202,
@@ -3667,7 +3639,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP (HL)",
             "operands": [
@@ -3681,7 +3653,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP H",
             "operands": [
@@ -3695,7 +3667,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP B",
             "operands": [
@@ -3709,7 +3681,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP D",
             "operands": [
@@ -3723,7 +3695,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC A",
             "operands": [
@@ -3737,7 +3709,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP C",
             "operands": [
@@ -3751,7 +3723,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP E",
             "operands": [
@@ -3765,7 +3737,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP A",
             "operands": [
@@ -3779,7 +3751,7 @@
         },
         {
             "opcode": 203,
-            "description": "descriptions are not yet supported",
+            "description": "Swap upper & lower nibles",
             "mnemonic": "SWAP",
             "fullMnemonic": "SWAP L",
             "operands": [
@@ -3987,15 +3959,8 @@
             "opcode": 217,
             "description": "descriptions are not yet supported",
             "mnemonic": "RETI",
-            "fullMnemonic": "RETI -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "RETI",
+            "operands": []
         },
         {
             "opcode": 218,
@@ -4149,7 +4114,7 @@
         },
         {
             "opcode": 232,
-            "description": "descriptions are not yet supported",
+            "description": "Add 1byte signed value to Stack Pointer (SP)",
             "mnemonic": "ADD",
             "fullMnemonic": "ADD SP,#",
             "operands": [
@@ -4161,9 +4126,9 @@
                 },
                 {
                     "description": "#",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -4285,17 +4250,10 @@
         },
         {
             "opcode": 243,
-            "description": "descriptions are not yet supported",
+            "description": "This instruction disables interrupts but not immediately. Interrupts are disabled after instruction after DI is executed",
             "mnemonic": "DI",
-            "fullMnemonic": "DI -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "DI",
+            "operands": []
         },
         {
             "opcode": 245,
@@ -4400,17 +4358,10 @@
         },
         {
             "opcode": 251,
-            "description": "descriptions are not yet supported",
+            "description": "Enable interrupts. This intruction enables interrupts but not immediately. Interrupts are enabled after instruction after EI is executed",
             "mnemonic": "EI",
-            "fullMnemonic": "EI -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "EI",
+            "operands": []
         },
         {
             "opcode": 254,
@@ -4442,21 +4393,14 @@
         },
         {
             "opcode": 4096,
-            "description": "descriptions are not yet supported",
+            "description": "Halt CPU & LCD display until button pressed",
             "mnemonic": "STOP",
-            "fullMnemonic": "STOP -/-",
-            "operands": [
-                {
-                    "description": "-/-",
-                    "size": 0,
-                    "type": null,
-                    "mask": ""
-                }
-            ]
+            "fullMnemonic": "STOP",
+            "operands": []
         },
         {
             "opcode": 51968,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC B",
             "operands": [
@@ -4470,7 +4414,7 @@
         },
         {
             "opcode": 51969,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC C",
             "operands": [
@@ -4484,7 +4428,7 @@
         },
         {
             "opcode": 51970,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC D",
             "operands": [
@@ -4498,7 +4442,7 @@
         },
         {
             "opcode": 51971,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC E",
             "operands": [
@@ -4512,7 +4456,7 @@
         },
         {
             "opcode": 51972,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC H",
             "operands": [
@@ -4526,7 +4470,7 @@
         },
         {
             "opcode": 51973,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC L",
             "operands": [
@@ -4540,7 +4484,7 @@
         },
         {
             "opcode": 51974,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left. Old bit 7 to Carry flag",
             "mnemonic": "RLC",
             "fullMnemonic": "RLC (HL)",
             "operands": [
@@ -4554,7 +4498,7 @@
         },
         {
             "opcode": 51976,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC B",
             "operands": [
@@ -4568,7 +4512,7 @@
         },
         {
             "opcode": 51977,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC C",
             "operands": [
@@ -4582,7 +4526,7 @@
         },
         {
             "opcode": 51978,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC D",
             "operands": [
@@ -4596,7 +4540,7 @@
         },
         {
             "opcode": 51979,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC E",
             "operands": [
@@ -4610,7 +4554,7 @@
         },
         {
             "opcode": 51980,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC H",
             "operands": [
@@ -4624,7 +4568,7 @@
         },
         {
             "opcode": 51981,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC L",
             "operands": [
@@ -4638,7 +4582,7 @@
         },
         {
             "opcode": 51982,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC (HL)",
             "operands": [
@@ -4652,7 +4596,7 @@
         },
         {
             "opcode": 51983,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right. Old bit 0 to Carry flag",
             "mnemonic": "RRC",
             "fullMnemonic": "RRC A",
             "operands": [
@@ -4666,7 +4610,7 @@
         },
         {
             "opcode": 51984,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL B",
             "operands": [
@@ -4680,7 +4624,7 @@
         },
         {
             "opcode": 51985,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL C",
             "operands": [
@@ -4694,7 +4638,7 @@
         },
         {
             "opcode": 51986,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL D",
             "operands": [
@@ -4708,7 +4652,7 @@
         },
         {
             "opcode": 51987,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL E",
             "operands": [
@@ -4722,7 +4666,7 @@
         },
         {
             "opcode": 51988,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL H",
             "operands": [
@@ -4736,7 +4680,7 @@
         },
         {
             "opcode": 51989,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL L",
             "operands": [
@@ -4750,7 +4694,7 @@
         },
         {
             "opcode": 51990,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL (HL)",
             "operands": [
@@ -4764,7 +4708,7 @@
         },
         {
             "opcode": 51991,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n left through Carry flag",
             "mnemonic": "RL",
             "fullMnemonic": "RL A",
             "operands": [
@@ -4778,7 +4722,7 @@
         },
         {
             "opcode": 51992,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR B",
             "operands": [
@@ -4792,7 +4736,7 @@
         },
         {
             "opcode": 51993,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR C",
             "operands": [
@@ -4806,7 +4750,7 @@
         },
         {
             "opcode": 51994,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR D",
             "operands": [
@@ -4820,7 +4764,7 @@
         },
         {
             "opcode": 51995,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR E",
             "operands": [
@@ -4834,7 +4778,7 @@
         },
         {
             "opcode": 51996,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR H",
             "operands": [
@@ -4848,7 +4792,7 @@
         },
         {
             "opcode": 51997,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR L",
             "operands": [
@@ -4862,7 +4806,7 @@
         },
         {
             "opcode": 51998,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR (HL)",
             "operands": [
@@ -4876,7 +4820,7 @@
         },
         {
             "opcode": 51999,
-            "description": "descriptions are not yet supported",
+            "description": "Rotate n right through Carry flag.",
             "mnemonic": "RR",
             "fullMnemonic": "RR A",
             "operands": [
@@ -4890,7 +4834,7 @@
         },
         {
             "opcode": 52000,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA B",
             "operands": [
@@ -4904,7 +4848,7 @@
         },
         {
             "opcode": 52001,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA C",
             "operands": [
@@ -4918,7 +4862,7 @@
         },
         {
             "opcode": 52002,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA D",
             "operands": [
@@ -4932,7 +4876,7 @@
         },
         {
             "opcode": 52003,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA E",
             "operands": [
@@ -4946,7 +4890,7 @@
         },
         {
             "opcode": 52004,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA H",
             "operands": [
@@ -4960,7 +4904,7 @@
         },
         {
             "opcode": 52005,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA L",
             "operands": [
@@ -4974,7 +4918,7 @@
         },
         {
             "opcode": 52006,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA (HL)",
             "operands": [
@@ -4988,7 +4932,7 @@
         },
         {
             "opcode": 52007,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n left into Carry. LSB of n set to 0",
             "mnemonic": "SLA",
             "fullMnemonic": "SLA A",
             "operands": [
@@ -5002,7 +4946,7 @@
         },
         {
             "opcode": 52008,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA B",
             "operands": [
@@ -5016,7 +4960,7 @@
         },
         {
             "opcode": 52009,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA C",
             "operands": [
@@ -5030,7 +4974,7 @@
         },
         {
             "opcode": 52010,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA D",
             "operands": [
@@ -5044,7 +4988,7 @@
         },
         {
             "opcode": 52011,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA E",
             "operands": [
@@ -5058,7 +5002,7 @@
         },
         {
             "opcode": 52012,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA H",
             "operands": [
@@ -5072,7 +5016,7 @@
         },
         {
             "opcode": 52013,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA L",
             "operands": [
@@ -5086,7 +5030,7 @@
         },
         {
             "opcode": 52014,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA (HL)",
             "operands": [
@@ -5100,7 +5044,7 @@
         },
         {
             "opcode": 52015,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB doesn't change",
             "mnemonic": "SRA",
             "fullMnemonic": "SRA A",
             "operands": [
@@ -5114,7 +5058,7 @@
         },
         {
             "opcode": 52024,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL B",
             "operands": [
@@ -5128,7 +5072,7 @@
         },
         {
             "opcode": 52025,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL C",
             "operands": [
@@ -5142,7 +5086,7 @@
         },
         {
             "opcode": 52026,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL D",
             "operands": [
@@ -5156,7 +5100,7 @@
         },
         {
             "opcode": 52027,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL E",
             "operands": [
@@ -5170,7 +5114,7 @@
         },
         {
             "opcode": 52028,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL H",
             "operands": [
@@ -5184,7 +5128,7 @@
         },
         {
             "opcode": 52029,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL L",
             "operands": [
@@ -5198,7 +5142,7 @@
         },
         {
             "opcode": 52030,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL (HL)",
             "operands": [
@@ -5212,7 +5156,7 @@
         },
         {
             "opcode": 52031,
-            "description": "descriptions are not yet supported",
+            "description": "Shift n right into Carry. MSB set to 0",
             "mnemonic": "SRL",
             "fullMnemonic": "SRL A",
             "operands": [
