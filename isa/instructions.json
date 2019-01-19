@@ -356,7 +356,7 @@
         },
         {
             "opcode": 24,
-            "description": "descriptions are not yet supported",
+            "description": "If following condition is true then add n to current address and jump to it",
             "mnemonic": "JR",
             "fullMnemonic": "JR n",
             "operands": [
@@ -479,7 +479,7 @@
         },
         {
             "opcode": 32,
-            "description": "descriptions are not yet supported",
+            "description": "If following condition is true then add n to current address and jump to it",
             "mnemonic": "JR",
             "fullMnemonic": "JR NZ,*",
             "operands": [
@@ -491,9 +491,9 @@
                 },
                 {
                     "description": "*",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -648,7 +648,7 @@
         },
         {
             "opcode": 40,
-            "description": "descriptions are not yet supported",
+            "description": "If following condition is true then add n to current address and jump to it",
             "mnemonic": "JR",
             "fullMnemonic": "JR Z,*",
             "operands": [
@@ -660,9 +660,9 @@
                 },
                 {
                     "description": "*",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -817,7 +817,7 @@
         },
         {
             "opcode": 48,
-            "description": "descriptions are not yet supported",
+            "description": "If following condition is true then add n to current address and jump to it",
             "mnemonic": "JR",
             "fullMnemonic": "JR NC,*",
             "operands": [
@@ -829,9 +829,9 @@
                 },
                 {
                     "description": "*",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -986,7 +986,7 @@
         },
         {
             "opcode": 56,
-            "description": "descriptions are not yet supported",
+            "description": "If following condition is true then add n to current address and jump to it",
             "mnemonic": "JR",
             "fullMnemonic": "JR C,*",
             "operands": [
@@ -998,9 +998,9 @@
                 },
                 {
                     "description": "*",
-                    "size": null,
-                    "type": "",
-                    "mask": ""
+                    "size": 8,
+                    "type": "h",
+                    "mask": "h"
                 }
             ]
         },
@@ -3510,7 +3510,7 @@
         },
         {
             "opcode": 194,
-            "description": "descriptions are not yet supported",
+            "description": "Jump to address if following condition is true",
             "mnemonic": "JP",
             "fullMnemonic": "JP NZ,nn",
             "operands": [
@@ -3524,6 +3524,19 @@
                     "description": "nn",
                     "size": 16,
                     "type": "**",
+                    "mask": "hh"
+                }
+            ]
+        },        {
+            "opcode": 195,
+            "description": "Jump to address",
+            "mnemonic": "JP",
+            "fullMnemonic": "JP nn",
+            "operands": [
+                {
+                    "description": "nn",
+                    "size": 16,
+                    "type": "hh",
                     "mask": "hh"
                 }
             ]
@@ -3619,7 +3632,7 @@
         },
         {
             "opcode": 202,
-            "description": "descriptions are not yet supported",
+            "description": "Jump to address if following condition is true",
             "mnemonic": "JP",
             "fullMnemonic": "JP Z,nn",
             "operands": [
@@ -3632,7 +3645,7 @@
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**",
+                    "type": "hh",
                     "mask": "hh"
                 }
             ]
@@ -3861,7 +3874,7 @@
         },
         {
             "opcode": 210,
-            "description": "descriptions are not yet supported",
+            "description": "Jump to address if following condition is true",
             "mnemonic": "JP",
             "fullMnemonic": "JP NC,nn",
             "operands": [
@@ -3874,7 +3887,7 @@
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**",
+                    "type": "hh",
                     "mask": "hh"
                 }
             ]
@@ -3964,7 +3977,7 @@
         },
         {
             "opcode": 218,
-            "description": "descriptions are not yet supported",
+            "description": "Jump to address if following condition is true",
             "mnemonic": "JP",
             "fullMnemonic": "JP C,nn",
             "operands": [
@@ -3977,7 +3990,7 @@
                 {
                     "description": "nn",
                     "size": 16,
-                    "type": "**",
+                    "type": "hh",
                     "mask": "hh"
                 }
             ]
@@ -4134,7 +4147,7 @@
         },
         {
             "opcode": 233,
-            "description": "descriptions are not yet supported",
+            "description": "Jump to address contained in HL",
             "mnemonic": "JP",
             "fullMnemonic": "JP (HL)",
             "operands": [
