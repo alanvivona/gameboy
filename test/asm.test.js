@@ -1,7 +1,7 @@
 const Assembler = require('../asm')
 
 const testCases = [
-
+/*
     // LD instruction reg to reg
       { "input": "LD B,B", "hex": "40" },
       { "input": "LD B,C", "hex": "41" },
@@ -124,13 +124,13 @@ const testCases = [
      { "input": "LD (BC),A", "hex": "02" },
      { "input": "LD (DE),A", "hex": "12" },
     
-     /* THESE DON'T WORK
-    //LD immediate values
+    // TODO: THESE DON'T WORK
+    // LD immediate values
     {"input": "LD A,0b111", "hex": "3e07" },
     {"input": "LD (0xAA55),A", "hex": "ea55aa" },
     {"input": "LD A,(0xaa55)", "hex": "fa55aa" },
-    */
-    
+    // THESE DON'T WORK
+
     // Put value at address $FF00 + register C into A and vice-versa
      { "input": "LD A,(C)", "hex": "f2" },
      { "input": "LD (C),A", "hex": "e2" },
@@ -155,18 +155,39 @@ const testCases = [
     { "input": "LD (HL+),A", "hex": "22" },
     { "input": "LDI (HL),A", "hex": "22" },
 
-
     // LDH : Put A into memory address $FF00+n and viceversa
     { "input": "LDH (0xff),A", "hex": "e0ff" },
     { "input": "LDH A,(0xff)", "hex": "f0ff" },
+*/
+    // LD 16bit
+    { "input": "LD BC,0x55aa", "hex": "0155aa" },
+    { "input": "LD DE,0x55aa", "hex": "1155aa" },
+    { "input": "LD HL,0x55aa", "hex": "2155aa" },
+    { "input": "LD SP,0x55aa", "hex": "3155aa" },
+    { "input": "LD SP,HL", "hex": "f9" },
 
+    // LDHL with two variants
+    { "input": "LDHL SP,0x55", "hex": "f855" },
+    // TODO: This variant is not supported yet!!
+    // { "input": "LD HL,SP+0x55", "hex": "f855" },
+
+    { "input": "LD (0x55aa),SP", "hex": "0855aa" },
+
+    // 16BIT PUSH
+    { "input": "PUSH BC", "hex": "c5" },
+    { "input": "PUSH DE", "hex": "d5" },
+    { "input": "PUSH HL", "hex": "e5" },
+    { "input": "PUSH AF", "hex": "f5" },
+
+    // 16BIT POP
+    { "input": "POP BC", "hex": "c1" },
+    { "input": "POP DE", "hex": "d1" },
+    { "input": "POP HL", "hex": "e1" },
+    { "input": "POP AF", "hex": "f1" },
 
     // NOT TESTED YET 
     // IM ON PAGE 65
     /* 
-        
-        
-
         // Regular cases 1 mnemonic = 1 opcode
         { "input": "NOP", "hex": "00" },
         { "input": "INC BC", "hex": "03" },

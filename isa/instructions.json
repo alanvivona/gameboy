@@ -16,7 +16,7 @@
         },
         {
             "opcode": 1,
-            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
+            "description": "Load 16bit immediate value into",
             "mnemonic": "LD",
             "fullMnemonic": "LD BC,nn",
             "operands": [
@@ -125,7 +125,7 @@
         },
         {
             "opcode": 8,
-            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
+            "description": "Put Stack Pointer (SP) at address nn",
             "mnemonic": "LD",
             "fullMnemonic": "LD (nn),SP",
             "operands": [
@@ -254,7 +254,7 @@
         },
         {
             "opcode": 17,
-            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
+            "description": "Load 16bit immediate value into",
             "mnemonic": "LD",
             "fullMnemonic": "LD DE,nn",
             "operands": [
@@ -506,7 +506,7 @@
         },
         {
             "opcode": 33,
-            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
+            "description": "Load 16bit immediate value into",
             "mnemonic": "LD",
             "fullMnemonic": "LD HL,nn",
             "operands": [
@@ -844,7 +844,7 @@
         },
         {
             "opcode": 49,
-            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
+            "description": "Load 16bit immediate value into",
             "mnemonic": "LD",
             "fullMnemonic": "LD SP,nn",
             "operands": [
@@ -3517,7 +3517,7 @@
         },
         {
             "opcode": 193,
-            "description": "descriptions are not yet supported",
+            "description": "Pop two bytes off stack into register pair nn. Increment Stack Pointer (SP) twice.",
             "mnemonic": "POP",
             "fullMnemonic": "POP BC",
             "operands": [
@@ -3571,7 +3571,7 @@
         },
         {
             "opcode": 197,
-            "description": "descriptions are not yet supported",
+            "description": "Push register pair nn onto stack. Decrement Stack Pointer (SP) twice.",
             "mnemonic": "PUSH",
             "fullMnemonic": "PUSH BC",
             "operands": [
@@ -3875,7 +3875,7 @@
         },
         {
             "opcode": 209,
-            "description": "descriptions are not yet supported",
+            "description": "Pop two bytes off stack into register pair nn. Increment Stack Pointer (SP) twice.",
             "mnemonic": "POP",
             "fullMnemonic": "POP DE",
             "operands": [
@@ -3929,7 +3929,7 @@
         },
         {
             "opcode": 213,
-            "description": "descriptions are not yet supported",
+            "description": "Push register pair nn onto stack. Decrement Stack Pointer (SP) twice.",
             "mnemonic": "PUSH",
             "fullMnemonic": "PUSH DE",
             "operands": [
@@ -4073,7 +4073,7 @@
         },
         {
             "opcode": 225,
-            "description": "descriptions are not yet supported",
+            "description": "Pop two bytes off stack into register pair nn. Increment Stack Pointer (SP) twice.",
             "mnemonic": "POP",
             "fullMnemonic": "POP HL",
             "operands": [
@@ -4107,7 +4107,7 @@
         },
         {
             "opcode": 229,
-            "description": "descriptions are not yet supported",
+            "description": "Push register pair nn onto stack. Decrement Stack Pointer (SP) twice.",
             "mnemonic": "PUSH",
             "fullMnemonic": "PUSH HL",
             "operands": [
@@ -4251,7 +4251,7 @@
         },
         {
             "opcode": 241,
-            "description": "descriptions are not yet supported",
+            "description": "Pop two bytes off stack into register pair nn. Increment Stack Pointer (SP) twice.",
             "mnemonic": "POP",
             "fullMnemonic": "POP AF",
             "operands": [
@@ -4299,8 +4299,7 @@
         },
         {
             "opcode": 245,
-            "description": "descriptions are not yet supported",
-            "mnemonic": "PUSH",
+            "description": "Push register pair nn onto stack. Decrement Stack Pointer (SP) twice.",            "mnemonic": "PUSH",
             "fullMnemonic": "PUSH AF",
             "operands": [
                 {
@@ -4341,7 +4340,7 @@
         },
         {
             "opcode": 248,
-            "description": "descriptions are not yet supported",
+            "description": "Put SP + n effective address into HL",
             "mnemonic": "LDHL",
             "fullMnemonic": "LDHL SP,n",
             "operands": [
@@ -4361,7 +4360,7 @@
         },
         {
             "opcode": 249,
-            "description": "Load value of second operand into first operand. When using two byte operands write the LS byte first",
+            "description": "Put HL into Stack Pointer (SP)",
             "mnemonic": "LD",
             "fullMnemonic": "LD SP,HL",
             "operands": [
