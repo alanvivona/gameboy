@@ -6,7 +6,7 @@ const ISA = {
 // syntax analysis
 const parse = line => {
 
-    console.log("Analyzing line", line)
+    // console.log("Analyzing line", line)
     if (line.length > 0) {
         // Ignore comments
         instruction = line.trim().split(";")[0].trim().toUpperCase()
@@ -127,7 +127,7 @@ const assembly = syntaxObj => {
                         machineCode.push(syntaxObj.operands[i].value)
                     }
                 })
-                console.log("Translated instruction", syntaxObj, "to machine code", machineCode)
+                // console.log("Translated instruction", syntaxObj, "to machine code", machineCode)
                 return machineCode
             } else {
                 console.log("Ambiguous instruction", syntaxObj)

@@ -24,7 +24,7 @@ const promptForInstruction = () => Inquirer.prompt(replPrompt).then(i => {
     spinner.start()
     let input = i['>'].toUpperCase()
     if (input !== "Q") {
-        console.log("Requested assembly for instruction: ", input)
+        // console.log("Requested assembly for instruction: ", input)
         const result = Assembler.asmLine(input)
         console.log("Result:", result)
         spinner.stop()
