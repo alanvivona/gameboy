@@ -147,7 +147,7 @@ const asmLine = line => {
         const machineCode = assembly(syntaxObj)
         if (machineCode !== null) {
             if (machineCode.length > 0) {
-                console.log("Machine code:", machineCode)
+                // console.log("Machine code:", machineCode)
                 return machineCode
             }
         } else {
