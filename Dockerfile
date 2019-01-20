@@ -29,4 +29,4 @@ RUN apt-get autoremove --purge -y && apt-get clean && rm -rf /var/lib/apt/lists/
 
 # Base command for container
 USER gameboy
-ENTRYPOINT ./home/gameboy/gameboy/cli/cli
+ENTRYPOINT /home/gameboy/gameboy/cli/cli
