@@ -66,8 +66,8 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
     sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-    sudo apt-get -q update
-    sudo apt-get install -y docker-ce docker-compose asciinema
-    sudo docker pull alanvivona/gameboy
+    sudo apt-get update
+    sudo apt-get -y upgrade
+    sudo apt-get -y install docker-ce asciinema
   SHELL
 end

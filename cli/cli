@@ -19,22 +19,66 @@ const replPrompt = [
 Clear()
 // const printInitScreen = () => console.log(Chalk.yellow(Figlet.textSync('gb(dis)asm', { horizontalLayout: 'full' })))
 
+// commands for the cli. these catches every user action besides assembly/disassembly of instructions
+const COMMANDS = [
+    {
+        description: "Clear the screen",
+        variants : [ 'C', 'CLEAR','CLEAR()',  ':C',  'CLR',  'CLR()' ],
+        action : () => Clear()
+    },
+    {
+        description: "Show help screen",
+        variants : [ 'H', 'HELP', 'HELP()',   ':H'   ],
+        action : printHelpScreen
+    },
+    {
+        description: "Quit",
+        variants : [ 'Q', 'QUIT', 'QUIT()',   ':Q',  ':Q!'   ],
+        action : () => {
+            console.log("Bye!")
+            process.exit(0)
+        }
+    }
+]
+
+function printHelpScreen() {
+    Clear()
+    console.log("\n")
+    console.log("\t" + "-".repeat(50))
+    COMMANDS.forEach(c => {
+        console.log("\t" + c.description + " : ")
+        console.log("\t" + c.variants.join("\t"))
+        console.log("\t" + "-".repeat(50))
+    })
+    console.log("\n")
+}
+
 const promptForInstruction = () => Inquirer.prompt(replPrompt).then(i => {
-    const spinner = new Clui.Spinner('Assembling...')
-    spinner.start()
     let input = i['>'].toUpperCase()
-    if (input !== "Q") {
+    
+    let inputIsCLICommand = false
+    for (let i = 0; i < COMMANDS.length; i++) {
+        const command = COMMANDS[i]
+        if (command.variants.indexOf(input) !== -1) {
+            inputIsCLICommand = true
+            command.action()
+            break
+        }
+    }
+
+    if (inputIsCLICommand === false) {
+        const spinner = new Clui.Spinner('Assembling...')
+        spinner.start()
         // console.log("Requested assembly for instruction: ", input)
         const result = Assembler.asmLine(input)
         console.log("Result:", result)
-        spinner.stop()
         // printInitScreen()
-        promptForInstruction()
-    } else {
         spinner.stop()
-        console.log("Bye!")
-        process.exit(0)
     }
+
+    promptForInstruction()
+
 })
 
+printHelpScreen()
 promptForInstruction()
