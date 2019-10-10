@@ -1,6 +1,6 @@
 # gb-asm
 
-## A Gameboy assembler
+A Gameboy assembler
 
 This installs the cli `gb-asm`
 
