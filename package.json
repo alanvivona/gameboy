@@ -29,5 +29,6 @@
   },
   "bin": {
     "gb-asm": "./cli/gb-asm-cli"
-  }
+  },
+  "keywords": ["nintendo", "gameboy", "game", "boy", "gb", "assembler", "assembly", "asm"]
 }
