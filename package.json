@@ -1,8 +1,8 @@
 {
-  "name": "game-boy-disassembler",
+  "name": "game-boy-assembler",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "./cli/gb-asm-cli",
   "directories": {
     "doc": "docs"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/alanvivona/game-boy-disassembler.git"
   },
-  "author": "Alan Vivona",
+  "author": "Alan Vivona (https://twitter.com/syscall59)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alanvivona/game-boy-disassembler/issues"
@@ -26,5 +26,8 @@
     "figlet": "^1.2.1",
     "inquirer": "^6.2.1",
     "minimist": "^1.2.0"
+  },
+  "bin": {
+    "gb-asm": "./cli/gb-asm-cli"
   }
 }
