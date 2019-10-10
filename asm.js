@@ -55,7 +55,7 @@ const assembly = syntaxObj => {
     const oneByte = Number(0xff)
     const twoBytes = Number(0xffff)
 
-    console.log("Syntax:", syntaxObj)
+    // console.log("Syntax:", syntaxObj)
 
     const instructionMatches = ISA.instructions
         .filter(isaInstruction => 
@@ -64,7 +64,7 @@ const assembly = syntaxObj => {
                 )
 
     if (instructionMatches.length > 0) {
-        console.log("Found", instructionMatches.length, "instruction matches for mnemonic:", syntaxObj.mnemonic, "with", syntaxObj.operands.length, "operands")
+        // console.log("Found", instructionMatches.length, "instruction matches for mnemonic:", syntaxObj.mnemonic, "with", syntaxObj.operands.length, "operands")
 
             const operandsMatchByValueAndType = instructionMatches.filter(isaInstruction => {
                 // console.log("Looking for match with ISA instruction",isaInstruction.fullMnemonic)
