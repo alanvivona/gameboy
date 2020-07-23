@@ -2,6 +2,9 @@
 
 A Gameboy assembler
 
+[![NPM](https://nodei.co/npm/game-boy-assembler.png)](https://npmjs.org/package/game-boy-assembler)
+
+
 This installs the cli `gb-asm`
 
 ### Usage  
