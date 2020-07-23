@@ -1,6 +1,6 @@
 {
   "name": "game-boy-assembler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./cli/gb-asm-cli",
   "directories": {
